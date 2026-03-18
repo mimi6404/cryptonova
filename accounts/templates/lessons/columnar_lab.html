@@ -1,0 +1,96 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Columnar Transposition Cipher</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <br>
+<div class="back-wrapper">
+    <button class="back-btn" onclick="history.back()">
+    ← Go Back
+</button>
+</div>
+<div class="container">
+
+    <h1 style="text-align:center;">
+        Columnar Transposition Cipher
+    </h1>
+
+    <!-- ============ INTRO ============ -->
+    <div class="card intro-card">
+
+        <h2>Introduction</h2>
+
+        <p>
+            Columnar Transposition is a transposition cipher.<br>
+            The plaintext is written into rows under a keyword,<br>
+            then columns are read according to alphabetical order of the keyword.
+        </p>
+
+        <div class="box input-text">
+            Example:<br>
+            Plaintext = HELLOWORLD <br>
+            Keyword = ZEBRA <br>
+            Ciphertext = ODLREOLLHW
+        </div>
+
+    </div>
+
+    <!-- ============ LAB ============ -->
+    <div class="card">
+
+        <h2>Practice Lab</h2>
+
+        <div class="box input-text">
+
+            <label>Plaintext</label>
+            <input type="text" id="plaintext" class="box input-text">
+
+            <label>Keyword</label>
+            <input type="text" id="keyword" oninput="showColumnarTable()" class="box input-text">
+
+            <button onclick="encryptColumnar()" class="btn">Encrypt</button>
+            <button onclick="decryptColumnar()" class="btn">Decrypt</button>
+
+        </div>
+
+        <div class="box input-text">
+
+            <label>Ciphertext</label>
+            <input type="text" id="ciphertext" readonly class="box input-text">
+
+            <label>Decrypted Text</label>
+            <input type="text" id="decryptedtext" readonly class="box input-text">
+
+        </div>
+
+      <div class="box input-text">
+
+    <button  id="toggleBtn" onclick="toggleTable()" class="btn">
+        Show Table Visualization
+    </button>
+
+    <div id="tableSection" style="display:none; margin-top:15px;" class="box input-text">
+
+        <h3>Table Visualization</h3>
+
+        <p style="font-size:14px; opacity:0.7;">
+            (Padding is applied internally for calculation)
+        </p>
+
+        <div id="tableDisplay"
+             style="font-family: monospace; white-space: pre;"></div>
+
+    </div>
+
+</div>
+
+    </div>
+
+</div>
+
+<script src="{% static 'js/columnar.js' %}"></script>
+</body>
+</html>

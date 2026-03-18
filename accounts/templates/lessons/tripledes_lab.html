@@ -1,0 +1,98 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3DES Encryption</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
+    <!-- CryptoJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</head>
+<body>
+    <br>
+<div class="back-wrapper">
+    <button class="back-btn" onclick="history.back()">
+    ← Go Back
+</button>
+</div>
+<div class="container">
+
+    <h1 style="text-align:center;">
+        3DES Encryption (Triple DES)
+    </h1>
+
+    <!-- INTRO -->
+    <div class="card intro-card">
+
+        <h2>Introduction</h2>
+
+        <p>
+            3DES (Triple DES) is an improved version of DES.<br>
+            It applies the DES algorithm three times to increase security.
+        </p>
+
+        <div class="box input-text">
+            Encryption pattern: Encrypt → Decrypt → Encrypt (EDE)
+        </div>
+
+    </div>
+
+    <!-- LAB -->
+    <div class="card">
+
+        <h2>Practice Lab</h2>
+
+        <div class="box input-text">
+
+            <label>Plaintext</label>
+            <input type="text" id="plaintext"  class="box input-text">
+
+            <label>Secret Key</label>
+            <input type="text" id="key" placeholder="Use a strong key"  class="box input-text">
+
+            <button onclick="encrypt3DES()" class="btn">Encrypt</button>
+            <button onclick="decrypt3DES()" class="btn">Decrypt</button>
+
+        </div>
+
+        <div class="box input-text">
+
+            <label>Ciphertext (Base64)</label>
+            <input type="text" id="ciphertext" readonly  class="box input-text">
+
+            <label>Decrypted Text</label>
+            <input type="text" id="decryptedtext" readonly  class="box input-text">
+
+        </div>
+
+        <!-- EXPLANATION -->
+        <div class="box input-text">
+
+            <button onclick="toggleExplanation()" class="btn">
+                Show Explanation
+            </button>
+
+            <div id="explanation" style="display:none; margin-top:15px;">
+
+                <h4>3DES Structure</h4>
+
+                <p>1. First DES encryption with Key1</p>
+                <p>2. DES decryption with Key2</p>
+                <p>3. DES encryption again with Key3</p>
+
+                <p>
+                    3DES increases security compared to DES,
+                    but is slower and now replaced by AES.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="{% static 'js/tripledes.js' %}"></script>
+</body>
+</html>

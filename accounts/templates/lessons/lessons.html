@@ -1,0 +1,113 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lessons</title>
+
+    <!-- Load Static CSS -->
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <br>
+<div class="back-wrapper">
+ <a href="{% url 'home' %}" class="back-btn" >
+    ← Go Back
+</a>
+</div>
+    <div class="container">
+        <h1 style="text-align: left;">Lessons</h1>
+<p style="text-align: left;">
+        <!-- Symmetric Cryptography -->
+       <div class="card">
+    <h2>Classical Methods</h2>
+
+    <div class="classical-grid">
+
+        <!-- Substitution -->
+        <div class="box classical-box">
+            <h3>Substitution Ciphers</h3>
+            <p>
+                Substitution ciphers replace each letter in the plaintext 
+                with another letter based on a specific rule.
+            </p>
+
+            <ul>
+                <li> <a href="{% url 'caesar_lab' %}" class="btn">Caesar Cipher</a></li>
+                <li><a href="{% url 'mixed_lab' %}" class="btn">Mixed Cipher</a></li>
+                <li><a href="{% url 'vigenere_lab' %}" class="btn"> Vigenère Cipher</a></li>
+            </ul>
+
+            <!--<a href="{% url 'caesar_lab' %}" class="btn">Go to Practice Lab</a>-->
+        </div>
+
+        <!-- Transposition -->
+        <div class="box classical-box">
+            <h3>Transposition Ciphers</h3>
+            <p>
+                Transposition ciphers rearrange the positions of letters 
+                without changing the actual characters.
+            </p>
+
+            <ul>
+                <li><a href="{% url 'railfence_lab' %}" class="btn"> Rail Fence Cipher</a></li>
+               <li><a href="{% url 'columnar_lab' %}" class="btn"> Columnar Cipher</a></li>
+                <li><a href="{% url 'scytale_lab' %}" class="btn"> Scytale Cipher</a></li>
+            </ul>
+
+          
+        </div>
+
+    </div>
+</div>
+
+ <!-- Modern Cryptography -->
+<div class="card">
+    <h2>Modern Cryptography</h2>
+
+    <div class="classical-grid">
+
+        <!-- Modern Symmetric -->
+        <div class="box classical-box">
+            <h3>Symmetric Cryptography</h3>
+            <p>
+                Symmetric encryption uses the same secret key 
+                for both encryption and decryption.
+            </p>
+
+            <ul>
+                <li><a href="{% url 'des_lab' %}" class="btn">DES</a></li>
+                <li><a href="{% url 'tripledes_lab' %}" class="btn">3DES</a></li>
+                 <li><a href="{% url 'aes_lab' %}" class="btn">AES</a></li>
+                  <li><a href="{% url 'twofish_lab' %}" class="btn">TwoFish</a></li>
+                
+            </ul>
+
+          
+        </div>
+
+        <!-- Modern Asymmetric -->
+        <div class="box classical-box">
+            <h3>Asymmetric Cryptography</h3>
+            <p>
+                Asymmetric encryption uses a public key 
+                for encryption and a private key for decryption.
+            </p>
+
+            <ul>
+               <li><a href="{% url 'rsa_lab' %}" class="btn">RSA</a></li>
+                <li><a href="{% url 'diffie_hellman_lab' %}" class="btn">Diffie-Hellman</a></li>
+                <li><a href="{% url 'ecc_lab' %}" class="btn">ECC</a></li>
+               
+            </ul>
+
+             
+        </div>
+
+    </div>
+   <a href="{% url 'practicelab' %}" class="btn">Go to practice labs</a> 
+</div>
+
+
+</body>
+</html>

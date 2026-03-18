@@ -1,0 +1,90 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Caesar Cipher Lab</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <br>
+<div class="back-wrapper">
+    <button class="back-btn" onclick="history.back()">
+    ← Go Back
+</button>
+</div>
+<div class="container">
+
+    <h1 style="text-align:center;">
+        Caesar Cipher (Shift Cipher)
+    </h1>
+
+    <!-- ================= INTRO SECTION ================= -->
+    <div class="card intro-card">
+
+        <div class="intro-content">
+
+            <div class="intro-text">
+                <h2>Introduction</h2>
+                <p>
+                    The Caesar Cipher is one of the oldest classical encryption
+                    techniques. It works by shifting each letter in the alphabet
+                    by a fixed number of positions.
+                </p>
+
+                <p>
+                    Example (Shift = 3):  <br>
+                    A → D  <br>
+                    B → E  <br>
+                    HELLO → KHOOR <br>
+                </p>
+            </div>
+
+            <div class="intro-images">
+                <img src="{% static 'images/1.jpg' %}" alt="Caesar Wheel">
+                
+            </div>
+
+        </div>
+
+        <!-- Optional Video -->
+       
+
+    </div>
+
+    <!-- ================= LAB SECTION ================= -->
+
+    <div class="card">
+
+        <h2>Practice Lab</h2>
+
+        <div class="box input-text">
+            <label>Plaintext</label>
+            <input type="text" id="text" placeholder="Enter text here" class="box input-text">
+            
+            <label>Shift</label>
+            <input type="number" id="shift" value="3" class="box" min="0" max="59">
+       
+
+       
+            <button onclick="encryptText()" class="btn">Encrypt</button>
+            <button onclick="decryptText()" class="btn">Decrypt</button>
+        </div>
+
+        <div class="box input-text">
+            <label>Ciphertext</label>
+            <input type="text" id="ciphertext" class="box input-text" readonly>
+            
+            <label>Decrypted Text</label>
+            <input type="text" id="decryptedtext" class="box input-text" readonly>
+        </div>
+<div class="steps-box">
+    <h3>Step-by-Step Process</h3>
+    <div id="steps"></div>
+</div>
+    </div>
+
+</div>
+
+<script src="{% static 'js/caesar.js' %}"></script>
+</body>
+</html>

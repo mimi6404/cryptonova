@@ -1,0 +1,108 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DES Encryption</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
+    <!-- CryptoJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</head>
+<body>
+    <br>
+<div class="back-wrapper">
+    <button class="back-btn" onclick="history.back()">
+    ← Go Back
+</button>
+</div>
+<div class="container">
+
+    <h1 style="text-align:center;">
+        DES Encryption (Data Encryption Standard)
+    </h1>
+
+    <!-- INTRO -->
+    <div class="card intro-card">
+
+        <h2>Introduction</h2>
+
+        <p>
+            DES is a symmetric block cipher developed in 1977.<br>
+            It uses a 56-bit secret key and works on 64-bit blocks.
+        </p>
+
+        <div class="box input-text">
+            DES performs 16 Feistel rounds.<br>
+            Today, DES is considered insecure due to short key length. 
+            
+        </div>
+        <div class="intro-images">
+                <img src="{% static 'images/des/de.png' %}" alt="Caesar Wheel" width="75" height="500">
+            </div>
+
+    </div>
+
+    <!-- LAB -->
+    <div class="card">
+
+        <h2>Practice Lab</h2>
+
+        <div class="box input-text">
+
+            <label>Plaintext</label>
+            <input type="text" id="plaintext"  class="box input-text">
+
+            <label>Secret Key (8 characters recommended)</label>
+            <input type="text" id="key"  class="box input-text">
+
+            <button onclick="encryptDES()" class="btn">Encrypt</button>
+            <button onclick="decryptDES()" class="btn">Decrypt</button>
+
+        </div>
+
+        <div class="box input-text">
+
+            <label>Ciphertext (Base64)</label>
+            <input type="text" id="ciphertext" readonly  class="box input-text">
+
+            <label>Decrypted Text</label>
+            <input type="text" id="decryptedtext" readonly  class="box input-text">
+
+        </div>
+
+        <div class="box input-text">
+
+            <button onclick="toggleExplanation()" class="btn">
+                Show Explanation
+            </button>
+
+            <div id="explanation" style="display:none; margin-top:15px;">
+
+                <h4>DES Round Structure</h4>
+
+                <p><b>1. Initial Permutation (IP):</b> Rearranges bits.</p>
+                <p><b>2. 16 Feistel Rounds:</b></p>
+                <ul>
+                    <li>Expansion (32 → 48 bits)</li>
+                    <li>Key Mixing (XOR)</li>
+                    <li>S-Box Substitution</li>
+                    <li>P-Permutation</li>
+                </ul>
+                <p><b>3. Final Permutation (FP):</b> Reverse of IP.</p>
+
+                <p>
+                    DES uses a <a href="https://en.wikipedia.org/wiki/Feistel_cipher">Feistel structure</a> where left and right halves
+                    are processed and swapped in each round.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="{% static 'js/des.js' %}"></script>
+</body>
+</html>

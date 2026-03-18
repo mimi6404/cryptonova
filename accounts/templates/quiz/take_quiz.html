@@ -1,0 +1,61 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ quiz.title }}</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <br>
+<div class="back-wrapper">
+    <button class="back-btn" onclick="history.back()">
+    ← Go Back
+</button>
+</div>
+<div class="container">
+    <h1>{{ quiz.title }}</h1>
+    <p>Answer all questions. You need 3 correct answers to pass.</p>
+    <div class="card">
+
+        <form method="post">
+            {% csrf_token %}
+
+            {% for question in questions %}
+             <h4>Question {{ forloop.counter }}</h4>
+                <div class="box">
+                    <h3>{{ question.text }}</h3>
+
+                    <label>
+                        <input type="radio" name="{{ question.id }}" value="1">
+                        {{ question.option1 }}
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="{{ question.id }}" value="2">
+                        {{ question.option2 }}
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="{{ question.id }}" value="3">
+                        {{ question.option3 }}
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="{{ question.id }}" value="4">
+                        {{ question.option4 }}
+                    </label>
+
+                </div>
+            {% endfor %}
+
+            <div class="button-row">
+                <button type="submit" class="btn">Submit Quiz</button>
+            </div>
+
+        </form>
+
+    </div>
+</div>
+
+</body>
+</html>

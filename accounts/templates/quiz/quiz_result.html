@@ -1,0 +1,51 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Result</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <br>
+<div class="back-wrapper">
+    <button class="back-btn" onclick="history.back()">
+    ← Go Back
+</button>
+</div>
+<div class="container">
+    <h1>{{ quiz.title }} - Result</h1>
+
+    <div class="card">
+        <h2>Your Score: {{ score }} / {{ total }}</h2>
+
+{% if passed %}
+<p style="color:#4ade80; font-weight:bold;">
+🎉 You passed this level!
+</p>
+{% else %}
+<p style="color:#f87171; font-weight:bold;">
+❌ You did not pass. Try again.
+</p>
+{% endif %}
+    </div>
+
+    {% for item in results %}
+        <div class="box">
+            <h3>{{ item.question.text }}</h3>
+
+            {% if item.is_correct %}
+                <p style="color:#4ade80;">✔ Correct</p>
+            {% else %}
+                <p style="color:#f87171;">
+                    ✖ Wrong — Correct answer: {{ item.correct }}
+                </p>
+            {% endif %}
+        </div>
+    {% endfor %}
+
+    <a href="{% url 'quiz_list' %}" class="btn">Back to Quiz List</a>
+
+</div>
+
+</body>
+</html>

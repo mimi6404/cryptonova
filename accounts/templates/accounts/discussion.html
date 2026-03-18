@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Discussion</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+        <br>
+<div class="back-wrapper">
+ <a href="{% url 'home' %}" class="back-btn">
+    ← Go Back
+</a>
+</div>
+<div class="container">
+     <h1>Discussion Forum</h1>
+<div class="card">
+    <form method="post">
+        {% csrf_token %}
+        <textarea name="post_content" rows="4" style="width:100%;" class="box input-text"></textarea>
+        <br><br>
+        <button type="submit" class="btn">Post</button>
+    </form>
+</div>
+
+<br>
+
+{% for post in posts %}
+    <div class="box">
+        <strong>{{ post.user.username }}</strong>
+        <p>{{ post.content }}</p>
+        <small>{{ post.created_at }}</small>
+
+        <hr>
+
+        <!-- عرض الردود -->
+        {% for reply in post.replies.all %}
+            <div style="margin-left:20px; background:#16283f; padding:10px; border-radius:8px; margin-top:8px;" >
+                <strong>{{ reply.user.username }}</strong>
+                <p>{{ reply.content }}</p>
+            </div>
+        {% endfor %}
+
+        <!-- فورم الرد -->
+        <form method="post" style="margin-top:10px;">
+            {% csrf_token %}
+            <input type="hidden" name="post_id" value="{{ post.id }}" class="box input-text">
+            <input type="text" name="reply_content" placeholder="Write a reply..." style="width:70%; padding:6px;" class="box input-text">
+            <button type="submit" class="btn">Reply</button>
+        </form>
+
+    </div>
+    <br>
+{% endfor %}
+</div>
+
+</body>
+</html>

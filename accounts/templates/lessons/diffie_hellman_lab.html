@@ -1,0 +1,112 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diffie-Hellman Key Exchange</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <br>
+<div class="back-wrapper">
+    <button class="back-btn" onclick="history.back()">
+    ← Go Back
+</button>
+</div>
+<div class="container">
+
+    <h1 style="text-align:center;">
+        Diffie-Hellman Key Exchange
+    </h1>
+
+    <!-- INTRO -->
+    <div class="card intro-card">
+
+        <h2>Introduction</h2>
+
+        <p>
+            Diffie-Hellman is a key exchange algorithm.<br>
+            It allows two parties to establish a shared secret
+            over an insecure channel.
+        </p>
+
+        <div class="box input-text">
+            It is not encryption, but a method to generate a shared key.
+        </div>
+
+    </div>
+
+    <!-- PRACTICE -->
+    <div class="card">
+
+        <h2>Practice Lab</h2>
+
+        <div class="box input-text">
+
+            <label>Prime Number (p)</label>
+            <input type="number" id="prime" value="23"  class="box input-text">
+
+            <label>Generator (g)</label>
+            <input type="number" id="generator" value="5"  class="box input-text">
+
+            <label>Alice Private Key (a)</label>
+            <input type="number" id="alicePrivate" value="6"  class="box input-text">
+
+            <label>Bob Private Key (b)</label>
+            <input type="number" id="bobPrivate" value="15"  class="box input-text">
+
+            <button onclick="calculateDH()" class="btn">
+                Generate Shared Secret
+            </button>
+
+        </div>
+
+        <div class="box input-text">
+
+            <label>Alice Public Key</label>
+            <input type="text" id="alicePublic" readonly  class="box input-text">
+
+            <label>Bob Public Key</label>
+            <input type="text" id="bobPublic" readonly  class="box input-text">
+
+            <label>Shared Secret (Alice)</label>
+            <input type="text" id="aliceSecret" readonly  class="box input-text">
+
+            <label>Shared Secret (Bob)</label>
+            <input type="text" id="bobSecret" readonly  class="box input-text">
+
+        </div>
+
+        <!-- EXPLANATION -->
+        <div class="box input-text">
+
+            <button onclick="toggleExplanation()" class="btn">
+                Show Explanation
+            </button>
+
+            <div id="explanation" style="display:none; margin-top:15px;">
+
+                <h4>Diffie-Hellman Steps</h4>
+
+                <p>1. Public values: p (prime), g (generator).</p>
+                <p>2. Alice chooses private a.</p>
+                <p>3. Bob chooses private b.</p>
+                <p>4. Alice computes A = g^a mod p.</p>
+                <p>5. Bob computes B = g^b mod p.</p>
+                <p>6. Shared Secret = B^a mod p = A^b mod p.</p>
+
+                <p>
+                    Even if someone knows p, g, A, B,
+                    they cannot easily compute the shared secret.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="{% static 'js/diffie_hellman.js' %}"></script>
+</body>
+</html>

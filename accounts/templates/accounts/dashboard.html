@@ -1,0 +1,41 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <br>
+<div class="back-wrapper">
+    <button class="back-btn" onclick="history.back()">
+    ← Go Back
+</button>
+</div>
+<div class="container">
+    <h1>My Dashboard</h1>
+
+    <div class="card">
+        <h3>Total Quizzes Taken</h3>
+        <p>{{ total_quizzes }}</p>
+    </div>
+
+    <div class="card">
+        <h3>Total Score</h3>
+        <p>{{ total_score }}</p>
+    </div>
+
+    <div class="card">
+        <h3>Highest Score</h3>
+        <p>{{ highest_score }}</p>
+    </div>
+
+    <div class="card">
+        <h3>Average Score</h3>
+        <p>{{ average_score }}</p>
+    </div>
+
+
+    <h2>Top 3 Users 🏆</h2>   
+{% for user in top_users %}
+    <div class="card">
+        <h3>{{ forloop.counter }}. {{ user.user__username }}</h3>
+        <p>Total Score: {{ user.total }}</p>
+    </div>
+    
+{% endfor %}
+</div>

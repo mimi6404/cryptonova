@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* PASTE THE CSS CODE FROM SECTION 2 BELOW INTO THIS STYLE BLOCK */
+        :root {
+    --primary-color: #007bff; /* Bright Blue */
+    --secondary-color: #f8f9fa; /* Light Gray */
+    --background-color: #212529; /* Dark Gray/Almost Black */
+    --card-bg: #343a40; /* Darker Card Background */
+    --text-color: #ffffff; /* White Text */
+    --border-radius: 10px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.registration-card {
+    background-color:  #16263d;
+    padding: 40px;
+    border-radius: var(--border-radius);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.form-title {
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+/* Targeting the <p> tags created by {{ form.as_p }} */
+.registration-form p {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+/* Styling for Django form labels and inputs */
+.registration-form label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="password"],
+.registration-form input[type="email"] {
+    width: calc(100% - 20px); /* 100% minus padding */
+    padding: 10px;
+    border: 1px solid #495057;
+    border-radius: 5px;
+    background-color: #173053;
+    color: var(--text-color);
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.registration-form input:focus {
+    border-color: #57A6A1;
+    outline: none;
+    box-shadow: 0 0 5px  #468a98;;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #57A6A1;
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.submit-button:hover {
+    background-color:  #468a98; /* Darker blue on hover */
+    transform: translateY(-3px);
+}
+
+.login-link {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #ced4da;
+}
+
+.login-link a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+
+/* The main container for the notes */
+.registration-form ul {
+    list-style: none; /* Remove default black bullets */
+    padding-left: 0;
+    margin-top: 10px;
+    background-color: #16263d; /* A slight, dark background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px 20px;
+    box-shadow: 0 1px 2px #57A6A1;
+}
+
+/* Individual note items */
+.registration-form ul li {
+    margin-bottom: 8px;
+    font-size: 13px;
+    color: #ced4da; /* Light text color for readability */
+    line-height: 1.4;
+    padding-left: 20px; /* Space for the custom icon/bullet */
+    position: relative;
+    text-align: left; /* Ensure text aligns properly */
+}
+
+/* Custom bullet/icon using the :before pseudo-element */
+.registration-form ul li::before {
+    content: "•"; /* Use a simple dot as a custom bullet */
+    color: #57A6A1; /* Use your primary color (blue) for the bullet */
+    font-weight: bold;
+    font-size: 18px; /* Make the dot slightly larger */
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    
+}
+.back-btn {
+    background: transparent;
+    color: #38bdf8;
+    border: 1px solid #38bdf8;
+    padding: 8px 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.back-btn:hover {
+    background: #38bdf8;
+    color: #0e1a2b;
+    transform: translateY(-2px);
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="registration-card">
+            <button class="back-btn" onclick="history.back()">
+    ← Go Back
+</button>
+            <h2 class="form-title">🛡️ Join Our platform</h2>
+
+            <form method="POST" class="registration-form">
+                {% csrf_token %}
+                
+                <p>
+    {{ form.username.label_tag }}
+    {{ form.username }}
+    {{ form.username.errors }}
+</p>
+
+<p>
+    {{ form.email.label_tag }}
+    {{ form.email }}
+    {{ form.email.errors }}
+</p>
+
+<p>
+    {{ form.password1.label_tag }}
+    {{ form.password1 }}
+    
+    <div class="password-help">
+        {{ form.password1.help_text }}
+    </div>
+
+    {{ form.password1.errors }}
+</p>
+
+<p>
+    {{ form.password2.label_tag }}
+    {{ form.password2 }}
+    {{ form.password2.errors }}
+</p>
+
+
+                <button type="submit" class="submit-button">Register</button>
+            </form>
+            
+            <p class="login-link">
+            <div style="text-align:center; margin-top:15px;">
+    <span style="color:#ccc;">Already have an account?</span>
+    <a href="{% url 'login' %}" style="color:#4fd1c5; text-decoration:none; font-weight:600;">
+        Login
+    </a>
+</div>
+                </p>
+        </div>
+    </div>
+</body>
+</html>

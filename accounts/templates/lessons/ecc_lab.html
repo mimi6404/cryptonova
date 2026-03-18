@@ -1,0 +1,109 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ECC Encryption</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <br>
+<div class="back-wrapper">
+    <button class="back-btn" onclick="history.back()">
+    ← Go Back
+</button>
+</div>
+<div class="container">
+
+    <h1 style="text-align:center;">
+        Elliptic Curve Cryptography (ECC)
+    </h1>
+
+    <!-- INTRO -->
+    <div class="card intro-card">
+
+        <h2>Introduction</h2>
+
+        <p>
+            ECC is an asymmetric cryptographic algorithm.<br>
+            It provides strong security with smaller key sizes
+            compared to RSA.
+        </p>
+
+        <div class="box input-text">
+            Based on Elliptic Curve Discrete Logarithm Problem (ECDLP).
+        </div>
+
+    </div>
+
+    <!-- PRACTICE -->
+    <div class="card">
+
+        <h2>Practice Lab</h2>
+
+        <div class="box input-text">
+
+            <button onclick="generateKeys()" class="btn">
+                Generate ECC Keys
+            </button>
+
+            <label>Public Key</label>
+            <textarea id="publicKey" rows="3"></textarea>
+
+            <label>Private Key</label>
+            <textarea id="privateKey" rows="3"></textarea>
+
+        </div>
+
+        <div class="box input-text">
+
+            <label>Message</label>
+            <input type="text" id="message">
+
+            <button onclick="signMessage()" class="btn">Sign</button>
+
+            <label>Signature</label>
+            <textarea id="signature" rows="2" readonly></textarea>
+
+            <button onclick="verifySignature()" class="btn">
+                Verify Signature
+            </button>
+
+            <label>Verification Result</label>
+            <input type="text" id="verification" readonly>
+
+        </div>
+
+        <!-- EXPLANATION -->
+        <div class="box input-text">
+
+            <button onclick="toggleExplanation()" class="btn">
+                Show Explanation
+            </button>
+
+            <div id="explanation" style="display:none; margin-top:15px;">
+
+                <h4>ECC Concepts</h4>
+
+                <p>1. Choose an elliptic curve.</p>
+                <p>2. Generate private key (random number).</p>
+                <p>3. Public key = private key × generator point.</p>
+
+                <p><b>Signing:</b> Uses private key.</p>
+                <p><b>Verification:</b> Uses public key.</p>
+
+                <p>
+                    ECC offers high security with smaller keys
+                    compared to RSA.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="{% static 'js/ecc.js' %}"></script>
+</body>
+</html>

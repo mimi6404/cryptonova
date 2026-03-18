@@ -1,0 +1,81 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rail Fence Cipher</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <br>
+<div class="back-wrapper">
+    <button class="back-btn" onclick="history.back()">
+    ← Go Back
+</button>
+</div>
+<div class="container">
+
+    <h1 style="text-align:center;">
+        Rail Fence Cipher
+    </h1>
+
+    <!-- ============ INTRO ============ -->
+    <div class="card intro-card">
+
+        <h2>Introduction</h2>
+
+        <p>
+            Rail Fence cipher is a transposition cipher.<br>
+            The plaintext is written in a zigzag pattern<br>
+            across multiple rows (rails) and then read row by row.
+        </p>
+
+        <div class="box input-text">
+            Example:<br>
+            Plaintext = HELLOWORLD <br>
+            Rails = 3 <br>
+            Ciphertext = HOLELWRDLO
+        </div>
+
+    </div>
+
+    <!-- ============ LAB ============ -->
+    <div class="card">
+
+        <h2>Practice Lab</h2>
+
+        <div class="box input-text">
+
+            <label>Plaintext</label>
+            <input type="text" id="plaintext" placeholder="enter text"class="box input-text">
+
+            <label>Number of Rails</label>
+            <input type="number" id="rails" placeholder="enter number of rails" class="box input-text">
+
+            <button onclick="encryptRailFence()" class="btn">Encrypt</button>
+            <button onclick="decryptRailFence()" class="btn">Decrypt</button>
+            
+        </div>
+
+        <div class="box input-text">
+
+            <label>Ciphertext</label>
+            <input type="text" id="ciphertext" readonly class="box input-text">
+
+            <label>Decrypted Text</label>
+            <input type="text" id="decryptedtext" readonly class="box input-text">
+
+        </div>
+
+        <div class="box input-text">
+            <button onclick="stepRailFence()" class="btn">Step by Step</button>
+            <h3>Zigzag Visualization</h3>
+            <div id="railDisplay" style="font-family: monospace; white-space: pre;"></div>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="{% static 'js/railfence.js' %}"></script>
+</body>
+</html>

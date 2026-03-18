@@ -1,0 +1,110 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AES Encryption</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
+    <!-- CryptoJS Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</head>
+<body>
+    <br>
+<div class="back-wrapper">
+    <button class="back-btn" onclick="history.back()">
+    ← Go Back
+</button>
+</div>
+<div class="container">
+
+    <h1 style="text-align:center;">
+        AES Encryption (Advanced Encryption Standard)
+    </h1>
+
+    <!-- INTRO -->
+    <div class="card intro-card">
+
+        <h2>Introduction</h2>
+
+        <p>
+            AES is a modern symmetric encryption algorithm.<br>
+            It uses the same secret key for encryption and decryption.<br>
+            The output ciphertext is encoded in Base64 format.
+        </p>
+<div class="intro-images">
+                <img src="{% static 'images/aes3.png' %}" alt="Caesar Wheel" width="200" height="400">
+                </div>
+        <div class="box input-text">
+            AES-128 / AES-192 / AES-256 supported.<br>
+            This implementation uses AES-256 internally.
+        </div>
+
+    </div>
+
+    <!-- LAB -->
+    <div class="card">
+
+        <h2>Practice Lab</h2>
+
+        <div class="box input-text">
+
+            <label>Plaintext</label>
+            <input type="text" id="plaintext" class="box input-text">
+
+            <label>Secret Key</label>
+            <input type="text" id="key" class="box input-text">
+
+            <button onclick="encryptAES()" class="btn">Encrypt</button>
+            <button onclick="decryptAES()" class="btn">Decrypt</button>
+
+        </div>
+
+        <div class="box input-text">
+
+            <label>Ciphertext (Base64)</label>
+            <input type="text" id="ciphertext" readonly class="box input-text">
+
+            <label>Decrypted Text</label>
+            <input type="text" id="decryptedtext" readonly class="box input-text">
+
+        </div>
+
+        <div class="box input-text">
+
+            <button onclick="toggleExplanation()" class="btn">
+                Show Explanation
+            </button>
+
+            <div id="explanation" style="display:none; margin-top:15px;">
+              <h4>AES Round Overview</h4>
+<p>AES works on 128-bit blocks arranged as a 4x4 byte matrix.<br>
+Each round performs structured transformations to ensure
+confusion and diffusion.</p>
+
+<h4>Round Steps</h4>
+<ul>
+<li><b>SubBytes:</b> Non-linear substitution using S-Box.
+     <br> During SubBytes, each bytes of states is transformed by looking up table S-box using their value as address.  
+     <br> <img src="{% static 'images/aes/subbytes.png' %}" alt="shiftrow" width="600" height="400">
+</li>
+ 
+<li><b>ShiftRows:</b> Row shifting for diffusion. <br>  During ShiftRows, last 3 rows of states are cyclically shifted over different number of bytes based on row number. <br><br> <img src="{% static 'images/aes/shiftrows.png' %}" alt="shiftrow" width="700" height="400"></li>  
+<li><b>MixColumns:</b> Mathematical column mixing. 
+    <br> During MixColumns, perform operation on each column of states. Basically it use matrix multiplication to transform each column of states. Transform matrix is fixed and calculation treats each bytes as polynomials with coefficients in GF(2^8), modulo x^4 + 1.
+<br> <img src="{% static 'images/aes/mixcolumns.png' %}" alt="shiftrow" width="600" height="400">
+</li>
+<li><b>AddRoundKey:</b> XOR with round key.
+    <br><img src="{% static 'images/aes/addroundkey.png' %}" alt="shiftrow" width="600" height="400">
+</li>
+</ul>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="{% static 'js/aes.js' %}"></script>
+</body>
+</html>

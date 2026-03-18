@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Select Quiz</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <br>
+<div class="back-wrapper">
+ <a href="{% url 'home' %}" class="back-btn">
+    ← Go Back
+</a>
+</div>
+<div class="container">
+
+    <h1>Select Lesson Quiz</h1>
+
+<div class="card">
+
+{% for lesson in lessons %}
+
+<div class="box">
+
+<h3>{{ lesson.title }}</h3>
+
+<a href="{% url 'lesson_quizzes' lesson.id %}" class="btn">
+Open Quizzes
+</a>
+
+</div>
+
+{% endfor %}
+
+</div>
+</div>
+
+</body>
+</html>

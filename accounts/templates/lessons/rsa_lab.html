@@ -1,0 +1,111 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RSA Encryption</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
+    <!-- JSEncrypt Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsencrypt/3.3.2/jsencrypt.min.js"></script>
+</head>
+<body>
+    <br>
+<div class="back-wrapper">
+    <button class="back-btn" onclick="history.back()">
+    ← Go Back
+</button>
+</div>
+<div class="container">
+
+    <h1 style="text-align:center;">
+        RSA Encryption (Asymmetric Algorithm)
+    </h1>
+
+    <!-- INTRO -->
+    <div class="card intro-card">
+
+        <h2>Introduction</h2>
+
+        <p>
+            RSA is an asymmetric cryptographic algorithm.<br>
+            It uses two keys: Public Key for encryption and
+            Private Key for decryption.
+        </p>
+
+        <div class="box input-text">
+            Based on large prime numbers and modular arithmetic.
+        </div>
+
+    </div>
+
+    <!-- PRACTICE -->
+    <div class="card">
+
+        <h2>Practice Lab</h2>
+
+        <div class="box input-text">
+
+            <button onclick="generateKeys()" class="btn">
+                Generate RSA Keys
+            </button>
+
+            <label>Public Key</label>
+            <textarea id="publicKey" rows="4"  class="box input-text"></textarea>
+
+            <label>Private Key</label>
+            <textarea id="privateKey" rows="4"  class="box input-text"></textarea>
+
+        </div>
+
+        <div class="box input-text">
+
+            <label>Plaintext</label>
+            <input type="text" id="plaintext"  class="box input-text"  >
+
+            <button onclick="encryptRSA()" class="btn">Encrypt</button>
+
+            <label>Ciphertext (Base64)</label>
+            <textarea id="ciphertext" rows="3" readonly  class="box input-text"></textarea>
+
+            <button onclick="decryptRSA()" class="btn">Decrypt</button>
+
+            <label>Decrypted Text</label>
+            <input type="text" id="decryptedtext" readonly  class="box input-text">
+
+        </div>
+
+        <!-- EXPLANATION -->
+        <div class="box input-text">
+
+            <button onclick="toggleExplanation()" class="btn">
+                Show Explanation
+            </button>
+
+            <div id="explanation" style="display:none; margin-top:15px;">
+
+                <h4>RSA Algorithm Steps</h4>
+
+                <p>1. Choose two large prime numbers (p, q).</p>
+                <p>2. Compute n = p × q.</p>
+                <p>3. Compute φ(n) = (p−1)(q−1).</p>
+                <p>4. Choose public exponent e.</p>
+                <p>5. Compute private exponent d.</p>
+
+                <p><b>Encryption:</b> C = M^e mod n</p>
+                <p><b>Decryption:</b> M = C^d mod n</p>
+
+                <p>
+                    RSA security depends on the difficulty of factoring large numbers.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="{% static 'js/rsa.js' %}"></script>
+</body>
+</html>

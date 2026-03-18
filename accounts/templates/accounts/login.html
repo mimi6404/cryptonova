@@ -1,0 +1,49 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
+<div class="container">
+    <br>
+<div class="back-wrapper">
+    <button class="back-btn" onclick="history.back()">
+    ← Go Back
+</button>
+</div>
+    <div class="card" style="max-width:400px; margin:auto; margin-top:80px; padding:30px;">
+
+        <h1 style="text-align:center;">Login</h1>
+
+        <form method="post">
+            {% csrf_token %}
+
+            <div style="margin-bottom:15px;">
+                <label>Username</label>
+                <input type="text" name="username" required 
+                       style="width:100%; padding:10px; border-radius:8px; border:none;" >
+            </div>
+
+            <div style="margin-bottom:20px;">
+                <label>Password</label>
+                <input type="password" name="password" required
+                       style="width:100%; padding:10px; border-radius:8px; border:none;">
+            </div>
+
+            <button type="submit" class="btn" style="width:100%;">
+                Login
+            </button>
+
+        </form>
+
+        {% if form.errors %}
+            <p style="color:#ff6b6b; margin-top:15px;">
+                Invalid username or password
+            </p>
+        {% endif %}
+ <div style="text-align:center; margin-top:15px;">
+    <span style="color:#ccc;">Don't have an account?</span>
+    <a href="{% url 'register' %}" style="color:#4fd1c5; text-decoration:none; font-weight:600;">
+        Sign up 
+    </a>
+</div>
+    </div>
+
+</div>

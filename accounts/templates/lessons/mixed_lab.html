@@ -1,0 +1,91 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mixed Substitution Cipher</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <br>
+<div class="back-wrapper">
+    <button class="back-btn" onclick="history.back()">
+    ← Go Back
+</button>
+</div>
+<div class="container">
+
+    <h1 style="text-align:center;">
+        Mixed (Keyword) Substitution Cipher
+    </h1>
+
+    <!-- ============ INTRO ============ -->
+    <div class="card intro-card">
+
+        <h2>Introduction</h2>
+
+        <p>
+            Mixed substitution cipher uses a keyword to create a new<br>
+            scrambled alphabet. The keyword letters come first,<br>
+            then the remaining letters of the alphabet without repetition.<br>
+        </p>
+
+       <div class="box input-text">
+        <p>
+            Example:<br>
+           
+            Keyword = KEY <br>
+            PlainAlphabet= ABCDEFGHIJKLMNOPQRSTUVWXYZ <br>
+            CipherAlphabet = KEYABCDFGHIJLMNOPQRSTUVWXZ <br>
+        </p>
+        </div>
+     
+    
+   
+
+   </div>
+
+    <!-- ============ LAB ============ -->
+    <div class="card">
+
+        <h2>Practice Lab</h2>
+
+        <div class="box input-text">
+            <label>Plaintext</label>
+            <input type="text" id="plaintext" placeholder="enter text to try it!" class="box input-text">
+        
+
+            <label>Keyword</label>
+            <input type="text" id="keyword" placeholder="enter keyword " class="box input-text" oninput="showCipherAlphabet()">
+       
+            <button onclick="encryptMixed()" class="btn">Encrypt</button>
+            <button onclick="decryptMixed()" class="btn">Decrypt</button>
+        </div>
+
+        <div class="box input-text">
+            <label>Ciphertext</label>
+            <input type="text" id="ciphertext" class="box input-text" readonly>
+       
+            <label>Decrypted Text</label>
+            <input type="text" id="decryptedtext" class="box input-text" readonly>
+        </div>
+
+        <div class="box input-text" style="margin-top:15px;">
+    <h3>Alphabet Mapping</h3>
+
+    <div id="alphabetDisplay" style="font-family: monospace; white-space: pre;"></div>
+</div>
+
+<div class="box input_text">
+            <button onclick="stepMixed()" class="btn">Step by Step</button>
+
+<div id="stepsBox" class="box input-text" style="margin-top:15px; display:none;">
+    <h3>Step by Step Trace</h3>
+    <div id="stepsOutput"></div>
+</div>
+    </div>
+
+</div>
+
+<script src="{% static 'js/mixed.js' %}"></script>
+</body>
+</html>

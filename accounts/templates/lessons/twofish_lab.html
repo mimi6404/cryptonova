@@ -1,0 +1,102 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Twofish Encryption</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
+    <!-- Twofish Library -->
+    <script src="https://cdn.jsdelivr.net/gh/bitwiseshiftleft/sjcl/sjcl.js"></script>
+</head>
+<body>
+    <br>
+<div class="back-wrapper">
+    <button class="back-btn" onclick="history.back()">
+    ← Go Back
+</button>
+</div>
+<div class="container">
+
+    <h1 style="text-align:center;">
+        Twofish Encryption
+    </h1>
+
+    <!-- INTRO -->
+    <div class="card intro-card">
+
+        <h2>Introduction</h2>
+
+        <p>
+            Twofish is a symmetric block cipher designed by Bruce Schneier in 1998.<br>
+            It was a finalist in the AES competition.
+        </p>
+
+        <div class="box input-text">
+            • Block size: 128 bits<br>
+            • Key size: 128, 192, or 256 bits<br>
+            • 16 Feistel rounds<br>
+            • Considered highly secure
+        </div>
+
+     
+
+    </div>
+
+    <!-- LAB -->
+    <div class="card">
+
+        <h2>Practice Lab</h2>
+
+        <div class="box input-text">
+
+            <label>Plaintext</label>
+            <input type="text" id="plaintext" class="box input-text">
+
+            <label>Secret Key (16 characters recommended)</label>
+            <input type="text" id="key" class="box input-text">
+
+            <button onclick="encryptTwofish()" class="btn">Encrypt</button>
+            <button onclick="decryptTwofish()" class="btn">Decrypt</button>
+
+        </div>
+
+        <div class="box input-text">
+
+            <label>Ciphertext (Base64)</label>
+            <input type="text" id="ciphertext" readonly class="box input-text">
+
+            <label>Decrypted Text</label>
+            <input type="text" id="decryptedtext" readonly class="box input-text">
+
+        </div>
+
+        <div class="box input-text">
+
+            <button onclick="toggleExplanation()" class="btn">
+                Show Explanation
+            </button>
+
+            <div id="explanation" style="display:none; margin-top:15px;">
+
+                <h4>Twofish Structure</h4>
+
+                <p><b>1. Input Whitening</b> – XOR with subkeys</p>
+                <p><b>2. 16 Feistel Rounds</b></p>
+                <ul>
+                    <li>Key-dependent S-boxes</li>
+                    <li>MDS matrix transformation</li>
+                    <li>Pseudo-Hadamard Transform</li>
+                </ul>
+                <p><b>3. Output Whitening</b></p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="{% static 'js/twofish.js' %}"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Practice Labs</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body> 
+    <br>
+<div class="back-wrapper">
+ <a href="{% url 'home' %}" class="back-btn">
+    ← Go Back
+</a>
+</div>
+<div class="container">
+    <h1>Practice Labs</h1>
+
+    <div class="practice-grid">
+
+        <div class="card practice-card">
+            <h3>Caesar Cipher</h3>
+            <p>Simple shift-based substitution cipher.</p>
+            <a href="{% url 'caesar_lab' %}" class="btn">Open Lab</a>
+        </div>
+
+        <div class="card practice-card">
+            <h3>(Mixed) Cipher</h3>
+            <p>Each letter maps to a fixed substitute.</p>
+            <a href="{% url 'mixed_lab' %}" class="btn">Open Lab</a>
+        </div>
+
+        <div class="card practice-card">
+            <h3>Vigenère Cipher</h3>
+            <p>Polyalphabetic cipher using a keyword.</p>
+            <a href="{% url 'vigenere_lab' %}" class="btn">Open Lab</a>
+        </div>
+
+        <div class="card practice-card">
+            <h3>Rail Fence</h3>
+            <p>Zigzag transposition cipher.</p>
+            <a href="{% url 'railfence_lab' %}" class="btn">Open Lab</a>
+        </div>
+
+        <div class="card practice-card">
+            <h3>Columnar Transposition</h3>
+            <p>Rearranges text using column order.</p>
+            <a href="{% url 'columnar_lab' %}" class="btn">Open Lab</a>
+        </div>
+<div class="card practice-card">
+            <h3>Scytale</h3>
+            <p>High-speed stream cipher.</p>
+            <a href="{% url 'scytale_lab' %}" class="btn">Open Lab</a>
+        </div>
+        <div class="card practice-card">
+            <h3>DES</h3>
+            <p>Classic symmetric block cipher.</p>
+            <a href="{% url 'des_lab' %}" class="btn">Open Lab</a>
+        </div>
+
+        <div class="card practice-card">
+            <h3>3DES</h3>
+            <p>(Triple DES) applies the DES encryption algorithm three times</p>
+            <a href="{% url 'tripledes_lab' %}" class="btn">Open Lab</a>
+        </div>
+
+        <div class="card practice-card">
+            <h3>AES</h3>
+            <p>Modern secure symmetric encryption.</p>
+            <a href="{% url 'aes_lab' %}" class="btn">Open Lab</a>
+        </div>
+
+        <div class="card practice-card">
+            <h3>Twofish</h3>
+            <p>Advanced symmetric block cipher.</p>
+            <a href="{% url 'twofish_lab' %}" class="btn">Open Lab</a>
+        </div>
+
+        <div class="card practice-card">
+            <h3>RSA</h3>
+            <p>Public-key asymmetric encryption algorithm.</p>
+            <a href="{% url 'rsa_lab' %}" class="btn">Open Lab</a>
+        </div>
+
+        <div class="card practice-card">
+            <h3>Diffie-Hellman</h3>
+            <p>Secure key exchange protocol.</p>
+            <a href="{% url 'diffie_hellman_lab' %}" class="btn">Open Lab</a>
+        </div>
+
+        <div class="card practice-card">
+            <h3>ECC</h3>
+            <p>Elliptic curve public-key cryptography.</p>
+            <a href="{% url 'ecc_lab' %}" class="btn">Open Lab</a>
+        </div>
+
+        
+
+    </div>
+
+</div>
+</body>
