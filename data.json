@@ -1,0 +1,6079 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2026-02-26T20:15:48.881Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Symmetric Cryptography",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2026-02-26T20:17:51.221Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Caesar cipher",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2026-02-26T20:19:09.035Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Caesar Basics Quiz",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2026-02-26T20:19:59.220Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Question object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2026-02-26T20:22:23.707Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Question object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2026-02-26T20:23:28.844Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Question object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2026-02-26T20:32:03.700Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Vigenère Cipher",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2026-02-26T20:34:00.230Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Basic Vigenère cipher quiz",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2026-02-26T20:34:53.016Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Vigenère Basics quiz",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2026-02-26T20:36:13.363Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Question object (4)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2026-02-27T18:29:47.108Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Question object (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Correct answer\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2026-02-27T19:12:01.649Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "5",
+    "object_repr": "maryam - 2026-02-27 18:56:44.623417+00:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2026-02-27T19:12:11.635Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "4",
+    "object_repr": "maryam - 2026-02-27 18:56:35.134192+00:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2026-02-27T19:12:29.987Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "3",
+    "object_repr": "maryam - 2026-02-27 18:55:34.404551+00:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2026-02-27T19:12:29.987Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "maryam - 2026-02-27 18:55:16.609109+00:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2026-02-27T19:12:29.987Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "maryam - 2026-02-27 18:54:02.059769+00:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2026-03-02T20:25:54.101Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Asymmetric",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2026-03-02T20:26:11.984Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Asymmetric cryptography",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2026-03-02T20:26:20.982Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Symmetric Cryptography",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2026-03-02T20:26:28.289Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Asymmetric Cryptography",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2026-03-02T20:37:39.932Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "Question object (5)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2026-03-02T20:41:03.784Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "6",
+    "object_repr": "Question object (6)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2026-03-02T20:45:32.546Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Mixed cipher",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2026-03-02T20:47:25.020Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Mixed Basics Quiz",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2026-03-02T20:48:21.170Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "7",
+    "object_repr": "Question object (7)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2026-03-02T20:49:29.466Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "8",
+    "object_repr": "Question object (8)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2026-03-02T20:50:46.279Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "9",
+    "object_repr": "Question object (9)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2026-03-02T20:51:51.330Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "10",
+    "object_repr": "Question object (10)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2026-03-02T20:54:17.104Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "11",
+    "object_repr": "Question object (11)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2026-03-03T18:09:27.673Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "DES cipher",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2026-03-06T17:59:04.697Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Rail Fence Cipher",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2026-03-06T18:00:19.055Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Columnar Cipher",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2026-03-06T18:01:46.127Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Scytale Cipher",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2026-03-06T18:03:21.767Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "3DES",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2026-03-06T18:08:45.978Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "AES",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2026-03-06T18:11:13.384Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Two-Fish",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2026-03-06T18:14:20.756Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "RSA",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2026-03-06T18:19:52.462Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "12",
+    "object_repr": "Diffie-Hellman",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2026-03-06T18:22:09.857Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "13",
+    "object_repr": "ECC",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2026-03-06T18:31:22.143Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Caesar cipher - intermediate",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2026-03-06T18:32:04.562Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "Caesar cipher - advanced",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2026-03-06T18:32:59.681Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "Vigenère Cipher - intermediate",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2026-03-06T18:33:17.465Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "7",
+    "object_repr": "Vigenère Cipher - advanced",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2026-03-06T18:33:51.230Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "Mixed cipher - intermediate",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2026-03-06T18:34:15.413Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "Mixed cipher - advanced",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2026-03-06T18:36:30.358Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "10",
+    "object_repr": "DES cipher - beginner",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2026-03-06T19:14:22.582Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "11",
+    "object_repr": "DES cipher - intermediate",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2026-03-06T19:14:53.479Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "12",
+    "object_repr": "DES cipher - advanced",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2026-03-06T19:17:10.301Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "13",
+    "object_repr": "Rail Fence Cipher - beginner",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2026-03-06T19:21:49.214Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "14",
+    "object_repr": "Rail Fence Cipher - intermediate",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2026-03-06T19:22:20.047Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "15",
+    "object_repr": "Rail Fence Cipher - advanced",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2026-03-06T19:23:18.763Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "16",
+    "object_repr": "Columnar Cipher - beginner",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2026-03-06T19:25:02.624Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "17",
+    "object_repr": "Columnar Cipher - intermediate",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2026-03-06T19:25:22.959Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "18",
+    "object_repr": "Columnar Cipher - advanced",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2026-03-06T19:44:13.970Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "19",
+    "object_repr": "Scytale Cipher - beginner",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2026-03-06T19:44:41.952Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "20",
+    "object_repr": "Scytale Cipher - intermediate",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2026-03-06T19:45:10.048Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "21",
+    "object_repr": "Scytale Cipher - advanced",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2026-03-06T19:45:32.357Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "22",
+    "object_repr": "3DES - beginner",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2026-03-06T19:45:56.405Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "23",
+    "object_repr": "3DES - intermediate",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2026-03-06T19:46:16.709Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "24",
+    "object_repr": "3DES - advanced",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2026-03-06T19:46:36.611Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "25",
+    "object_repr": "AES - beginner",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2026-03-06T19:47:45.539Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "26",
+    "object_repr": "AES - intermediate",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2026-03-06T19:48:08.228Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "27",
+    "object_repr": "AES - advanced",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2026-03-06T19:48:54.575Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "28",
+    "object_repr": "Two-Fish - beginner",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2026-03-06T19:49:26.278Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "29",
+    "object_repr": "Two-Fish - intermediate",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2026-03-06T19:49:41.611Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "30",
+    "object_repr": "Two-Fish - advanced",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2026-03-06T19:50:16.565Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "31",
+    "object_repr": "RSA - beginner",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2026-03-06T19:50:34.435Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "32",
+    "object_repr": "RSA - intermediate",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2026-03-06T19:50:53.343Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "33",
+    "object_repr": "RSA - advanced",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2026-03-06T19:51:24.056Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "34",
+    "object_repr": "Diffie-Hellman - beginner",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2026-03-06T19:51:48.110Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "35",
+    "object_repr": "Diffie-Hellman - intermediate",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2026-03-06T19:52:15.989Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "36",
+    "object_repr": "Diffie-Hellman - advanced",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2026-03-06T19:52:34.783Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "37",
+    "object_repr": "ECC - beginner",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2026-03-06T19:53:09.604Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "38",
+    "object_repr": "ECC - intermediate",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2026-03-06T19:53:34.241Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "39",
+    "object_repr": "ECC - advanced",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2026-03-07T18:41:33.272Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "12",
+    "object_repr": "Question object (12)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2026-03-07T18:46:00.036Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "Question object (13)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2026-03-07T18:46:26.654Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Question object (2)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Quiz\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2026-03-07T18:46:36.199Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Question object (3)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2026-03-07T19:29:40.590Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "14",
+    "object_repr": "Question object (14)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2026-03-07T19:33:06.810Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "15",
+    "object_repr": "Question object (15)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2026-03-07T19:34:19.428Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Question object (16)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2026-03-07T19:35:45.125Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "17",
+    "object_repr": "Question object (17)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2026-03-07T19:37:55.155Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "18",
+    "object_repr": "Question object (18)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2026-03-07T19:39:25.049Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "19",
+    "object_repr": "Question object (19)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2026-03-07T19:44:57.353Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "20",
+    "object_repr": "Question object (20)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2026-03-07T19:45:51.384Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "21",
+    "object_repr": "Question object (21)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2026-03-07T19:47:45.658Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "22",
+    "object_repr": "Question object (22)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2026-03-07T19:49:02.095Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "23",
+    "object_repr": "Question object (23)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2026-03-07T19:51:06.099Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "24",
+    "object_repr": "Question object (24)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2026-03-07T19:51:50.206Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "25",
+    "object_repr": "Question object (25)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2026-03-07T20:18:20.890Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "26",
+    "object_repr": "Question object (26)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2026-03-07T20:21:04.713Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "27",
+    "object_repr": "Question object (27)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2026-03-07T20:22:18.034Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "28",
+    "object_repr": "Question object (28)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2026-03-07T20:24:21.044Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "29",
+    "object_repr": "Question object (29)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2026-03-07T20:25:30.667Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "30",
+    "object_repr": "Question object (30)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2026-03-07T20:26:55.217Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "31",
+    "object_repr": "Question object (31)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2026-03-07T20:28:18.875Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "32",
+    "object_repr": "Question object (32)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2026-03-07T20:29:21.998Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "33",
+    "object_repr": "Question object (33)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2026-03-07T20:30:51.711Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "34",
+    "object_repr": "Question object (34)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2026-03-07T20:32:27.882Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "35",
+    "object_repr": "Question object (35)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2026-03-07T20:33:19.659Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "36",
+    "object_repr": "Question object (36)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2026-03-07T20:35:13.672Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "37",
+    "object_repr": "Question object (37)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2026-03-07T20:37:06.675Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "38",
+    "object_repr": "Question object (38)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2026-03-14T11:02:09.118Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "39",
+    "object_repr": "Question object (39)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2026-03-15T21:20:26.405Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "40",
+    "object_repr": "Question object (40)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2026-03-15T21:21:21.419Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "41",
+    "object_repr": "Question object (41)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2026-03-15T21:22:54.017Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "42",
+    "object_repr": "Question object (42)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2026-03-15T21:25:09.017Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "43",
+    "object_repr": "Question object (43)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2026-03-15T21:26:40.161Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "44",
+    "object_repr": "Question object (44)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2026-03-15T21:29:36.438Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "45",
+    "object_repr": "Question object (45)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2026-03-15T21:31:10.793Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "46",
+    "object_repr": "Question object (46)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2026-03-15T21:32:02.150Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "47",
+    "object_repr": "Question object (47)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2026-03-15T21:46:29.259Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "48",
+    "object_repr": "Question object (48)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2026-03-15T21:47:22.967Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "49",
+    "object_repr": "Question object (49)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2026-03-15T21:48:28.968Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "50",
+    "object_repr": "Question object (50)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2026-03-15T21:49:46.378Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "51",
+    "object_repr": "Question object (51)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 118,
+  "fields": {
+    "action_time": "2026-03-15T21:50:46.350Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "52",
+    "object_repr": "Question object (52)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 119,
+  "fields": {
+    "action_time": "2026-03-15T21:52:13.710Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "53",
+    "object_repr": "Question object (53)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 120,
+  "fields": {
+    "action_time": "2026-03-15T21:53:22.662Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "54",
+    "object_repr": "Question object (54)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 121,
+  "fields": {
+    "action_time": "2026-03-15T21:54:54.087Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "55",
+    "object_repr": "Question object (55)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 122,
+  "fields": {
+    "action_time": "2026-03-15T21:56:29.071Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "56",
+    "object_repr": "Question object (56)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 123,
+  "fields": {
+    "action_time": "2026-03-15T21:58:50.814Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "57",
+    "object_repr": "Question object (57)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 124,
+  "fields": {
+    "action_time": "2026-03-15T22:02:15.869Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "58",
+    "object_repr": "Question object (58)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 125,
+  "fields": {
+    "action_time": "2026-03-15T22:03:25.915Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "59",
+    "object_repr": "Question object (59)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 126,
+  "fields": {
+    "action_time": "2026-03-15T22:05:08.860Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "60",
+    "object_repr": "Question object (60)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 127,
+  "fields": {
+    "action_time": "2026-03-15T22:09:52.008Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "61",
+    "object_repr": "Question object (61)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 128,
+  "fields": {
+    "action_time": "2026-03-15T22:11:48.306Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "62",
+    "object_repr": "Question object (62)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 129,
+  "fields": {
+    "action_time": "2026-03-15T22:13:05.830Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "63",
+    "object_repr": "Question object (63)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 130,
+  "fields": {
+    "action_time": "2026-03-15T22:18:43.190Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "64",
+    "object_repr": "Question object (64)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 131,
+  "fields": {
+    "action_time": "2026-03-15T22:19:56.383Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "65",
+    "object_repr": "Question object (65)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 132,
+  "fields": {
+    "action_time": "2026-03-15T22:20:45.365Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "66",
+    "object_repr": "Question object (66)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 133,
+  "fields": {
+    "action_time": "2026-03-15T22:21:49.530Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "67",
+    "object_repr": "Question object (67)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 134,
+  "fields": {
+    "action_time": "2026-03-15T22:23:22.529Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "68",
+    "object_repr": "Question object (68)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 135,
+  "fields": {
+    "action_time": "2026-03-15T22:24:34.834Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "69",
+    "object_repr": "Question object (69)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 136,
+  "fields": {
+    "action_time": "2026-03-15T22:26:11.016Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "70",
+    "object_repr": "Question object (70)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 137,
+  "fields": {
+    "action_time": "2026-03-15T22:32:20.891Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "71",
+    "object_repr": "Question object (71)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 138,
+  "fields": {
+    "action_time": "2026-03-15T22:33:16.149Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "72",
+    "object_repr": "Question object (72)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 139,
+  "fields": {
+    "action_time": "2026-03-15T22:35:44.450Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "73",
+    "object_repr": "Question object (73)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 140,
+  "fields": {
+    "action_time": "2026-03-15T22:36:14.131Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "73",
+    "object_repr": "Question object (73)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Option4\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 141,
+  "fields": {
+    "action_time": "2026-03-15T22:38:53.927Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "74",
+    "object_repr": "Question object (74)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 142,
+  "fields": {
+    "action_time": "2026-03-15T22:40:03.260Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "75",
+    "object_repr": "Question object (75)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 143,
+  "fields": {
+    "action_time": "2026-03-15T22:41:09.638Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "76",
+    "object_repr": "Question object (76)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 144,
+  "fields": {
+    "action_time": "2026-03-15T22:42:18.021Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "77",
+    "object_repr": "Question object (77)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 145,
+  "fields": {
+    "action_time": "2026-03-15T22:44:46.355Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "78",
+    "object_repr": "Question object (78)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 146,
+  "fields": {
+    "action_time": "2026-03-15T22:46:04.855Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "79",
+    "object_repr": "Question object (79)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 147,
+  "fields": {
+    "action_time": "2026-03-15T22:47:10.740Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "80",
+    "object_repr": "Question object (80)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 148,
+  "fields": {
+    "action_time": "2026-03-16T18:33:31.060Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "81",
+    "object_repr": "Question object (81)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 149,
+  "fields": {
+    "action_time": "2026-03-16T18:34:26.518Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "82",
+    "object_repr": "Question object (82)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 150,
+  "fields": {
+    "action_time": "2026-03-16T18:35:20.711Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "83",
+    "object_repr": "Question object (83)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 151,
+  "fields": {
+    "action_time": "2026-03-16T18:36:19.421Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "84",
+    "object_repr": "Question object (84)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 152,
+  "fields": {
+    "action_time": "2026-03-16T18:37:32.714Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "85",
+    "object_repr": "Question object (85)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 153,
+  "fields": {
+    "action_time": "2026-03-16T18:38:16.656Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "86",
+    "object_repr": "Question object (86)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 154,
+  "fields": {
+    "action_time": "2026-03-16T18:39:30.455Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "87",
+    "object_repr": "Question object (87)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 155,
+  "fields": {
+    "action_time": "2026-03-16T18:40:42.878Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "88",
+    "object_repr": "Question object (88)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 156,
+  "fields": {
+    "action_time": "2026-03-16T18:41:56.329Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "89",
+    "object_repr": "Question object (89)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 157,
+  "fields": {
+    "action_time": "2026-03-16T18:45:27.059Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "90",
+    "object_repr": "Question object (90)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 158,
+  "fields": {
+    "action_time": "2026-03-16T18:49:53.731Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "91",
+    "object_repr": "Question object (91)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 159,
+  "fields": {
+    "action_time": "2026-03-16T19:01:31.916Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "92",
+    "object_repr": "Question object (92)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 160,
+  "fields": {
+    "action_time": "2026-03-16T19:02:23.594Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "93",
+    "object_repr": "Question object (93)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 161,
+  "fields": {
+    "action_time": "2026-03-16T19:03:15.553Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "94",
+    "object_repr": "Question object (94)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 162,
+  "fields": {
+    "action_time": "2026-03-16T19:03:58.226Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "95",
+    "object_repr": "Question object (95)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 163,
+  "fields": {
+    "action_time": "2026-03-16T19:04:47.467Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "96",
+    "object_repr": "Question object (96)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 164,
+  "fields": {
+    "action_time": "2026-03-16T19:05:41.084Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "97",
+    "object_repr": "Question object (97)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 165,
+  "fields": {
+    "action_time": "2026-03-16T19:06:40.205Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "98",
+    "object_repr": "Question object (98)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 166,
+  "fields": {
+    "action_time": "2026-03-16T19:07:36.921Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "99",
+    "object_repr": "Question object (99)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 167,
+  "fields": {
+    "action_time": "2026-03-16T19:08:26.034Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "100",
+    "object_repr": "Question object (100)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 168,
+  "fields": {
+    "action_time": "2026-03-16T19:09:21.445Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "101",
+    "object_repr": "Question object (101)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 169,
+  "fields": {
+    "action_time": "2026-03-16T19:12:05.518Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "102",
+    "object_repr": "Question object (102)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 170,
+  "fields": {
+    "action_time": "2026-03-16T19:12:56.182Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "103",
+    "object_repr": "Question object (103)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 171,
+  "fields": {
+    "action_time": "2026-03-16T19:13:55.580Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "104",
+    "object_repr": "Question object (104)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 172,
+  "fields": {
+    "action_time": "2026-03-16T19:14:58.252Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "105",
+    "object_repr": "Question object (105)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 173,
+  "fields": {
+    "action_time": "2026-03-16T19:15:52.032Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "106",
+    "object_repr": "Question object (106)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 174,
+  "fields": {
+    "action_time": "2026-03-16T19:16:50.570Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "107",
+    "object_repr": "Question object (107)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 175,
+  "fields": {
+    "action_time": "2026-03-16T19:17:43.465Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "108",
+    "object_repr": "Question object (108)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 176,
+  "fields": {
+    "action_time": "2026-03-16T19:18:49.875Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "109",
+    "object_repr": "Question object (109)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 177,
+  "fields": {
+    "action_time": "2026-03-16T19:19:35.019Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "110",
+    "object_repr": "Question object (110)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 178,
+  "fields": {
+    "action_time": "2026-03-16T19:20:29.308Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "111",
+    "object_repr": "Question object (111)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 179,
+  "fields": {
+    "action_time": "2026-03-16T19:21:14.786Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "112",
+    "object_repr": "Question object (112)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 180,
+  "fields": {
+    "action_time": "2026-03-16T19:22:06.853Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "113",
+    "object_repr": "Question object (113)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 181,
+  "fields": {
+    "action_time": "2026-03-16T19:23:11.736Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "114",
+    "object_repr": "Question object (114)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 182,
+  "fields": {
+    "action_time": "2026-03-16T19:24:18.662Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "115",
+    "object_repr": "Question object (115)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 183,
+  "fields": {
+    "action_time": "2026-03-16T19:25:17.755Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "116",
+    "object_repr": "Question object (116)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 184,
+  "fields": {
+    "action_time": "2026-03-16T19:27:17.024Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "117",
+    "object_repr": "Question object (117)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 185,
+  "fields": {
+    "action_time": "2026-03-16T19:28:44.269Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "118",
+    "object_repr": "Question object (118)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 186,
+  "fields": {
+    "action_time": "2026-03-16T19:30:10.296Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "119",
+    "object_repr": "Question object (119)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 187,
+  "fields": {
+    "action_time": "2026-03-16T19:31:11.159Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "120",
+    "object_repr": "Question object (120)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 188,
+  "fields": {
+    "action_time": "2026-03-16T19:33:51.443Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "121",
+    "object_repr": "Question object (121)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 189,
+  "fields": {
+    "action_time": "2026-03-18T22:19:20.923Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "8",
+    "object_repr": "lamyaa_abd",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 190,
+  "fields": {
+    "action_time": "2026-03-18T22:19:20.923Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "nnnn",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 191,
+  "fields": {
+    "action_time": "2026-03-18T22:19:20.923Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "9",
+    "object_repr": "some_user",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 192,
+  "fields": {
+    "action_time": "2026-03-18T22:19:20.923Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "7",
+    "object_repr": "user5",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add category",
+    "content_type": 7,
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change category",
+    "content_type": 7,
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete category",
+    "content_type": 7,
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view category",
+    "content_type": 7,
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add lesson",
+    "content_type": 8,
+    "codename": "add_lesson"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change lesson",
+    "content_type": 8,
+    "codename": "change_lesson"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete lesson",
+    "content_type": 8,
+    "codename": "delete_lesson"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view lesson",
+    "content_type": 8,
+    "codename": "view_lesson"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add profile",
+    "content_type": 9,
+    "codename": "add_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change profile",
+    "content_type": 9,
+    "codename": "change_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete profile",
+    "content_type": 9,
+    "codename": "delete_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view profile",
+    "content_type": 9,
+    "codename": "view_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add quiz",
+    "content_type": 10,
+    "codename": "add_quiz"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change quiz",
+    "content_type": 10,
+    "codename": "change_quiz"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete quiz",
+    "content_type": 10,
+    "codename": "delete_quiz"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view quiz",
+    "content_type": 10,
+    "codename": "view_quiz"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add question",
+    "content_type": 11,
+    "codename": "add_question"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change question",
+    "content_type": 11,
+    "codename": "change_question"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete question",
+    "content_type": 11,
+    "codename": "delete_question"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view question",
+    "content_type": 11,
+    "codename": "view_question"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add quiz result",
+    "content_type": 12,
+    "codename": "add_quizresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change quiz result",
+    "content_type": 12,
+    "codename": "change_quizresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete quiz result",
+    "content_type": 12,
+    "codename": "delete_quizresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view quiz result",
+    "content_type": 12,
+    "codename": "view_quizresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add discussion post",
+    "content_type": 13,
+    "codename": "add_discussionpost"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change discussion post",
+    "content_type": 13,
+    "codename": "change_discussionpost"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete discussion post",
+    "content_type": 13,
+    "codename": "delete_discussionpost"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view discussion post",
+    "content_type": 13,
+    "codename": "view_discussionpost"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add reply",
+    "content_type": 14,
+    "codename": "add_reply"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change reply",
+    "content_type": 14,
+    "codename": "change_reply"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete reply",
+    "content_type": 14,
+    "codename": "delete_reply"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view reply",
+    "content_type": 14,
+    "codename": "view_reply"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add badge",
+    "content_type": 15,
+    "codename": "add_badge"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change badge",
+    "content_type": 15,
+    "codename": "change_badge"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete badge",
+    "content_type": 15,
+    "codename": "delete_badge"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view badge",
+    "content_type": 15,
+    "codename": "view_badge"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add certificate",
+    "content_type": 16,
+    "codename": "add_certificate"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change certificate",
+    "content_type": 16,
+    "codename": "change_certificate"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete certificate",
+    "content_type": 16,
+    "codename": "delete_certificate"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view certificate",
+    "content_type": 16,
+    "codename": "view_certificate"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add quiz progress",
+    "content_type": 17,
+    "codename": "add_quizprogress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change quiz progress",
+    "content_type": 17,
+    "codename": "change_quizprogress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete quiz progress",
+    "content_type": 17,
+    "codename": "delete_quizprogress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view quiz progress",
+    "content_type": 17,
+    "codename": "view_quizprogress"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$MwoX0DmzRUf4x23mCGg60n$tFDgBj28MbXnv/HiG0pSGSEy9R/DX6aMKk3CJ+Mtp10=",
+    "last_login": "2026-03-21T21:02:16.758Z",
+    "is_superuser": true,
+    "username": "maryam",
+    "first_name": "",
+    "last_name": "",
+    "email": "mimialshekhly@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-02-26T18:30:45.807Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$ufn8qTQ9FNPnQkRas1h9tE$Cp0Hm2hwDF7yfHWweFg5Tc1Y+Ra6d3FjoPtSIKVv+R4=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "maryam66",
+    "first_name": "",
+    "last_name": "",
+    "email": "mariam.abd22011@sc.uobaghdad.edu.iq",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-02-26T18:32:22.221Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$lJ2qUTMY4il7ultYdquQkh$8Y3clDvXrKr4tqpdJnUbkYly7dZ/Qyef9htm66g5ADs=",
+    "last_login": "2026-03-03T18:07:26.870Z",
+    "is_superuser": false,
+    "username": "second_user",
+    "first_name": "",
+    "last_name": "",
+    "email": "mariam.abd22011@sc.uobaghdad.edu.iq",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-02-27T20:21:02.688Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$TYzaTQSXLCe7K5F4fIVEM5$sb5QYQEX/l7BPW+PNOb2Env9MyehqcaYJyVLiyn3gXA=",
+    "last_login": "2026-03-02T19:57:58.892Z",
+    "is_superuser": false,
+    "username": "third_user",
+    "first_name": "",
+    "last_name": "",
+    "email": "mariam.abd22011@sc.uobaghdad.edu.iq",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-02-27T20:25:29.459Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$H1xJWImMrLe7osJ6JFvfuJ$A/uurRBfa4dvrT00ZumjfoMi2vmVqU4B9gT0Zz7bKgU=",
+    "last_login": "2026-03-07T18:33:16.154Z",
+    "is_superuser": false,
+    "username": "fourth_user",
+    "first_name": "",
+    "last_name": "",
+    "email": "mariam.abd22011@sc.uobaghdad.edu.iq",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-03-02T20:29:35.516Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "accounts",
+    "model": "category"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "accounts",
+    "model": "lesson"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "accounts",
+    "model": "profile"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "accounts",
+    "model": "quiz"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "accounts",
+    "model": "question"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "accounts",
+    "model": "quizresult"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "accounts",
+    "model": "discussionpost"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "accounts",
+    "model": "reply"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "accounts",
+    "model": "badge"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "accounts",
+    "model": "certificate"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 17,
+  "fields": {
+    "app_label": "accounts",
+    "model": "quizprogress"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6t3ob5bgo9f209udvwp19u5sq7ukgzwg",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hARGMSl-56BDDODVA1NSrsy3l2bdKHb_977L5VwXWpau8xpZHVRRh1-t4z0kLYBvmO7TZqmtsxj1puid9r1MLE8r7v7d1Cx12-NAE48WBuBnBgK2Z29AcZIwQeXi0TvKVo4ER6ZbLCG0HGhIpmCRPX-ANryOHY:1vx7bb:v81j0UR9tWlNJc7A1gUrjvbYJMtTL72TPlvdVEDHWX0",
+    "expire_date": "2026-03-16T18:02:55.412Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "9vx0maoya5g3ig9eo1nwg3mfodwl7r1k",
+  "fields": {
+    "session_data": ".eJxVjDsOwyAQRO9CHSG-Zp0yvc-AgF2CkwgkY1dR7h5bcpF0o3lv5s182Nbit06Ln5FdmWGX3y6G9KR6AHyEem88tbouc-SHwk_a-dSQXrfT_TsooZd9DQqSNTIjOSshR5QxKjlQUgNlK6wVUqMYs1bCaCUdBII9W0RwMKbMPl_WLDdF:1vw50K:2SsbSpURrPZxMHtMZ3U5gY2oJAW1QwMK-aTbVGER3xc",
+    "expire_date": "2026-03-13T21:04:08.405Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "i90l7c0sv5572kmkwe4dnubnkfbe8gu6",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQRO_iGln-ZOM1JX3OEO1mbRxAjpRPhbg7iZQCutG8N_NWPW1r6bclzf0o6qqCuvx2TMMz1QPIg-p90sNU13lkfSj6pIvuJkmv2-n-HRRayr5mTwkkOk8ttw4wB4AoNiJaI-ybwKYBF9AC-iTZGI4RDElG18Ae1OcLy_E27w:1vywTf:VDZmdBQVJO-btAJvB52ly28SJH3pUakRySWpHWTZ5DI",
+    "expire_date": "2026-03-21T18:34:15.611Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "pwbmgmcyqeu81l9kuc22e771lx6ivxig",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hARGMSl-56BDDODVA1NSrsy3l2bdKHb_977L5VwXWpau8xpZHVRRh1-t4z0kLYBvmO7TZqmtsxj1puid9r1MLE8r7v7d1Cx12-NAE48WBuBnBgK2Z29AcZIwQeXi0TvKVo4ER6ZbLCG0HGhIpmCRPX-ANryOHY:1vzf22:XbvxyHoAqP7vIU54Q-n9rsaDVzaxgZEjehb4Inf6IBw",
+    "expire_date": "2026-03-23T18:08:42.323Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wiarob6190chb89nuzf91nvxij61m5u5",
+  "fields": {
+    "session_data": ".eJxVjDsOwyAQRO9CHSG-Zp0yvc-AgF2CkwgkY1dR7h5bcpF0o3lv5s182Nbit06Ln5FdmWGX3y6G9KR6AHyEem88tbouc-SHwk_a-dSQXrfT_TsooZd9DQqSNTIjOSshR5QxKjlQUgNlK6wVUqMYs1bCaCUdBII9W0RwMKbMPl_WLDdF:1vwcxy:7BrXgPiFsy2eES_OiswtwmlzWU5hB26Z1Q3N47GYXUA",
+    "expire_date": "2026-03-15T09:19:58.387Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xztmm30qx7iyff6r5ru02illwfgf6d5k",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQBf-FsyG02FJ69O4XGEMWdrGogbTAReO_2yY96PXNvHkzA7VMpmZaTEA2soYdfjcL7kFxA3iHeEvcpViWYPmm8J1mfk5Iz9Pu_gUmyNP6VqJtLXgPEr23nRSdApIDYqcGRU5b3XuPThw9IrXaKiLR66Gx1AhQktboXMPLzJVyCSlmNl6uny_YSkCk:1w455y:cH6JkXWpiSwQX4hl2gs12WSCQFQ_6Myos0ttaf8J9pY",
+    "expire_date": "2026-04-04T22:47:02.640Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "y19t7te4yzvh3ibjb360wgj7cju0n5a7",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQRO_iGln-xD9K-pzB2rXXOIAcKU4qxN1JpBQgTTXvzbxZhG2tceu0xCmzK7Ps8tshpCe1A-QHtPvM09zWZUJ-KPyknY9zptftdP8OKvS6r4O0mhR4g0UjKueSEEV6sgrMILWBPZSCM7oIa4oLlizmTIMLJNFn9vkC2QU35A:1vywSf:wKz3l6S9adnwCYDmgezh3jwPhvn3BKFPMx_uhGQTcmQ",
+    "expire_date": "2026-03-21T18:33:13.758Z"
+  }
+},
+{
+  "model": "accounts.category",
+  "pk": 1,
+  "fields": {
+    "name": "Symmetric Cryptography",
+    "description": "Encryption using the same key for encryption and decryption."
+  }
+},
+{
+  "model": "accounts.category",
+  "pk": 2,
+  "fields": {
+    "name": "Asymmetric Cryptography",
+    "description": "the key used for encryption isn't the same as the one used for decryption"
+  }
+},
+{
+  "model": "accounts.lesson",
+  "pk": 1,
+  "fields": {
+    "title": "Caesar cipher",
+    "category": 1,
+    "theory": "Caesar cipher shifts each letter by a fixed number.",
+    "example": "A → D when the key = 3\r\nHELLO → KHOOR",
+    "created_at": "2026-02-26T20:17:51.214Z"
+  }
+},
+{
+  "model": "accounts.lesson",
+  "pk": 2,
+  "fields": {
+    "title": "Vigenère Cipher",
+    "category": 1,
+    "theory": "is a polyalphabetic substitution cipher that encrypts text by shifting each letter according to a repeating keyword.",
+    "example": "HELLO with key KEY → RIJVS",
+    "created_at": "2026-02-26T20:32:03.698Z"
+  }
+},
+{
+  "model": "accounts.lesson",
+  "pk": 3,
+  "fields": {
+    "title": "Mixed cipher",
+    "category": 1,
+    "theory": "A mixed cipher is a cryptographic technique that combines both substitution and transposition methods to increase security.",
+    "example": "plaintext =HELLO\r\nkey=ZEBRAS\r\nciphertext=DAIIL",
+    "created_at": "2026-03-02T20:45:32.539Z"
+  }
+},
+{
+  "model": "accounts.lesson",
+  "pk": 4,
+  "fields": {
+    "title": "DES cipher",
+    "category": 1,
+    "theory": "Data Encryption Standard (DES) is a symmetric block cipher that encrypts 64-bit blocks of data using a 56-bit secret key through 16 rounds of Feistel network operations",
+    "example": "plaintext 0123456789ABCDEF\r\nkey 133457799BBCDFF1\r\nciphertext 85E813540F0AB405",
+    "created_at": "2026-03-03T18:09:27.663Z"
+  }
+},
+{
+  "model": "accounts.lesson",
+  "pk": 5,
+  "fields": {
+    "title": "Rail Fence Cipher",
+    "category": 1,
+    "theory": "a form of transposition cipher that encrypts messages by writing plaintext in a zigzag pattern across a set number of \"rails\" (rows) and reading them off row-by-row",
+    "example": "Plaintext = HELLOWORLD\r\nRails = 3\r\nCiphertext = HOLELWRDLO",
+    "created_at": "2026-03-06T17:59:04.685Z"
+  }
+},
+{
+  "model": "accounts.lesson",
+  "pk": 6,
+  "fields": {
+    "title": "Columnar Cipher",
+    "category": 1,
+    "theory": "a symmetric transposition technique that rearranges plaintext by writing it in rows within a grid, then reading it column-by-column based on a keyword-defined order",
+    "example": "Plaintext = HELLOWORLD\r\nKeyword = ZEBRA\r\nCiphertext = ODLREOLLHW",
+    "created_at": "2026-03-06T18:00:19.047Z"
+  }
+},
+{
+  "model": "accounts.lesson",
+  "pk": 7,
+  "fields": {
+    "title": "Scytale Cipher",
+    "category": 1,
+    "theory": "ancient Greek transposition cipher (c. 7th century BC) that uses a cylinder (rod) and a spirally wrapped parchment strip to rearrange letters. The key is the rod's diameter. It encrypts by writing across the wrapped rod and decrypts by re-wrapping the strip around an identical rod.",
+    "example": "Plaintext = HELLOWORLD\r\nRows = 3\r\nCiphertext = HLODEORLWL",
+    "created_at": "2026-03-06T18:01:46.118Z"
+  }
+},
+{
+  "model": "accounts.lesson",
+  "pk": 8,
+  "fields": {
+    "title": "3DES",
+    "category": 1,
+    "theory": "Triple DES (3DES) is a symmetric block cipher that enhances the original DES algorithm by applying it three times to each 64-bit data block. It uses a 168-bit key (divided into three 56-bit keys) for an Encrypt-Decrypt-Encrypt (EDE) process, significantly boosting security against brute-force attacks compared to standard",
+    "example": "Message: \"The quick brown fox...\".\r\nKey: \"1234567890123456ABCDEFGH\".\r\nResult: 13D4D3549493D2870F93C3E0812A06DE467E1F9C0BFB16C070EDE5CABBD3CA62F217A7AE8D47F2C7198FF39162ECEC94.",
+    "created_at": "2026-03-06T18:03:21.762Z"
+  }
+},
+{
+  "model": "accounts.lesson",
+  "pk": 9,
+  "fields": {
+    "title": "AES",
+    "category": 1,
+    "theory": "a symmetric block cipher, typically using 128-bit blocks and 128, 192, or 256-bit keys. It transforms 16-byte plaintext into 16-byte ciphertext via a 4x4 \"state\" matrix over 10–14 rounds (depending on key length) using Substitution-Permutation Network (SPN) principles",
+    "example": "Plaintext : Two One Nine Two (16 ASCII characters, 1 byte each)\r\nKey : Thats my Kung Fu (16 ASCII characters, 1 byte each)\r\nCiphertext: 29 C3 50 5F 57 14 20 F6 40 22 99 B3 1A 02 D7 3A",
+    "created_at": "2026-03-06T18:08:45.973Z"
+  }
+},
+{
+  "model": "accounts.lesson",
+  "pk": 10,
+  "fields": {
+    "title": "Two-Fish",
+    "category": 1,
+    "theory": "Twofish is a symmetric 128-bit block cipher developed by Bruce Schneier in 1998, featuring a 16-round Feistel network that supports keys up to 256 bits. It is highly secure, utilizing key-dependent S-boxes, a Maximum Distance Separable (MDS) matrix, and pre/post-whitening to resist cryptanalysis.",
+    "example": "Plaintext: 128-bit block split into four 32-bit words.\r\nKey: 128, 192, or 256 bits.\r\nResult: 128-bit ciphertext.",
+    "created_at": "2026-03-06T18:11:13.381Z"
+  }
+},
+{
+  "model": "accounts.lesson",
+  "pk": 11,
+  "fields": {
+    "title": "RSA",
+    "category": 2,
+    "theory": "RSA (Rivest-Shamir-Adleman) an asymmetric cryptographic algorithm that uses a public key for encryption and a private key for decryption, relying on the difficulty of factoring large prime numbers. It secures data through modular exponentiation, making it foundational for secure online communications (HTTPS, SSH).",
+    "example": "Choose p = 3 and q = 11\r\nCompute n = p * q = 3 * 11 = 33\r\nCompute φ(n) = (p - 1) * (q - 1) = 2 * 10 = 20\r\nChoose e such that 1 < e < φ(n) and e and φ (n) are coprime. Let e = 7\r\nCompute a value for d such that (d * e) % φ(n) = 1. One solution is d = 3 [(3 * 7) % 20 = 1]\r\nPublic key is (e, n) => (7, 33)\r\nPrivate key is (d, n) => (3, 33)\r\nThe encryption of m = 2 is c = 27 % 33 = 29\r\nThe decryption of c = 29 is m = 293 % 33 = 2",
+    "created_at": "2026-03-06T18:14:20.749Z"
+  }
+},
+{
+  "model": "accounts.lesson",
+  "pk": 12,
+  "fields": {
+    "title": "Diffie-Hellman",
+    "category": 1,
+    "theory": "Diffie-Hellman (DH) is a cryptographic protocol allowing two parties to establish a shared secret key over an insecure channel, enabling secure, encrypted communication. It relies on the difficulty of computing discrete logarithms in finite fields. Alice and Bob exchange public values \r\n derived from private, random keys  allowing both to compute the same shared secret \r\n without revealing the secrets.",
+    "example": "important distinction: You're not sharing information during the key exchange, you're creating a key together.",
+    "created_at": "2026-03-06T18:19:52.460Z"
+  }
+},
+{
+  "model": "accounts.lesson",
+  "pk": 13,
+  "fields": {
+    "title": "ECC",
+    "category": 1,
+    "theory": "a modern public-key encryption technique based on the algebraic structure of elliptic curves over finite fields. It provides high security with much smaller key sizes (e.g., 256-bit ECC ≈ 3072-bit RSA). Its security rests on the Elliptic Curve Discrete Logarithm Problem (ECDLP), which makes it computationally infeasible to reverse engineer a private key from a public key.",
+    "example": "ECDH (Elliptic Curve Diffie-Hellman)\r\nECDH is a popular key agreement protocol using ECC, where Alice and Bob generate a shared secret over an insecure channel.",
+    "created_at": "2026-03-06T18:22:09.850Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 1,
+  "fields": {
+    "lesson": 1,
+    "title": "Caesar Basics Quiz",
+    "level": "beginner",
+    "created_at": "2026-02-26T20:19:09.032Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 2,
+  "fields": {
+    "lesson": 2,
+    "title": "Vigenère Basics quiz",
+    "level": "beginner",
+    "created_at": "2026-02-26T20:34:00.228Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 3,
+  "fields": {
+    "lesson": 3,
+    "title": "Mixed Basics Quiz",
+    "level": "beginner",
+    "created_at": "2026-03-02T20:47:25.013Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 4,
+  "fields": {
+    "lesson": 1,
+    "title": "Caesar Cipher- Intermediate",
+    "level": "intermediate",
+    "created_at": "2026-03-06T18:31:22.136Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 5,
+  "fields": {
+    "lesson": 1,
+    "title": "Caesar Cipher-Advanced",
+    "level": "advanced",
+    "created_at": "2026-03-06T18:32:04.553Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 6,
+  "fields": {
+    "lesson": 2,
+    "title": "Vigenère Cipher - intermediate",
+    "level": "intermediate",
+    "created_at": "2026-03-06T18:32:59.672Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 7,
+  "fields": {
+    "lesson": 2,
+    "title": "Vigenère Cipher-advanced",
+    "level": "advanced",
+    "created_at": "2026-03-06T18:33:17.459Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 8,
+  "fields": {
+    "lesson": 3,
+    "title": "Mixed cipher - intermediate",
+    "level": "intermediate",
+    "created_at": "2026-03-06T18:33:51.223Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 9,
+  "fields": {
+    "lesson": 3,
+    "title": "Mixed cipher - advanced",
+    "level": "advanced",
+    "created_at": "2026-03-06T18:34:15.412Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 10,
+  "fields": {
+    "lesson": 4,
+    "title": "DES cipher Basics",
+    "level": "beginner",
+    "created_at": "2026-03-06T18:36:30.343Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 11,
+  "fields": {
+    "lesson": 4,
+    "title": "DES cipher - intermediate",
+    "level": "intermediate",
+    "created_at": "2026-03-06T19:14:22.581Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 12,
+  "fields": {
+    "lesson": 4,
+    "title": "DES cipher - Advanced",
+    "level": "advanced",
+    "created_at": "2026-03-06T19:14:53.470Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 13,
+  "fields": {
+    "lesson": 5,
+    "title": "Rail fence cipher - beginner",
+    "level": "beginner",
+    "created_at": "2026-03-06T19:17:10.299Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 14,
+  "fields": {
+    "lesson": 5,
+    "title": "Rail Fence - intermediate",
+    "level": "intermediate",
+    "created_at": "2026-03-06T19:21:49.207Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 15,
+  "fields": {
+    "lesson": 5,
+    "title": "Rail Fence - Advanced",
+    "level": "advanced",
+    "created_at": "2026-03-06T19:22:20.040Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 16,
+  "fields": {
+    "lesson": 6,
+    "title": "Columnar - beginner",
+    "level": "beginner",
+    "created_at": "2026-03-06T19:23:18.755Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 17,
+  "fields": {
+    "lesson": 6,
+    "title": "Columnar - intermediate",
+    "level": "intermediate",
+    "created_at": "2026-03-06T19:25:02.618Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 18,
+  "fields": {
+    "lesson": 6,
+    "title": "Columnar - Advanced",
+    "level": "advanced",
+    "created_at": "2026-03-06T19:25:22.948Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 19,
+  "fields": {
+    "lesson": 7,
+    "title": "Scytale - beginner",
+    "level": "beginner",
+    "created_at": "2026-03-06T19:44:13.962Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 20,
+  "fields": {
+    "lesson": 7,
+    "title": "Scytale - intermediate",
+    "level": "intermediate",
+    "created_at": "2026-03-06T19:44:41.946Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 21,
+  "fields": {
+    "lesson": 7,
+    "title": "Scytale - Advanced",
+    "level": "advanced",
+    "created_at": "2026-03-06T19:45:10.038Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 22,
+  "fields": {
+    "lesson": 8,
+    "title": "3DES - beginner",
+    "level": "beginner",
+    "created_at": "2026-03-06T19:45:32.350Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 23,
+  "fields": {
+    "lesson": 8,
+    "title": "3DES - intermediate",
+    "level": "intermediate",
+    "created_at": "2026-03-06T19:45:56.398Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 24,
+  "fields": {
+    "lesson": 8,
+    "title": "3DES - Advanced",
+    "level": "advanced",
+    "created_at": "2026-03-06T19:46:16.701Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 25,
+  "fields": {
+    "lesson": 9,
+    "title": "AES - Basics",
+    "level": "beginner",
+    "created_at": "2026-03-06T19:46:36.603Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 26,
+  "fields": {
+    "lesson": 9,
+    "title": "AES - intermediate",
+    "level": "intermediate",
+    "created_at": "2026-03-06T19:47:45.526Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 27,
+  "fields": {
+    "lesson": 9,
+    "title": "AES - Advanced",
+    "level": "advanced",
+    "created_at": "2026-03-06T19:48:08.219Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 28,
+  "fields": {
+    "lesson": 10,
+    "title": "Two-Fish Basics",
+    "level": "beginner",
+    "created_at": "2026-03-06T19:48:54.568Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 29,
+  "fields": {
+    "lesson": 10,
+    "title": "Two-Fish intermediate",
+    "level": "intermediate",
+    "created_at": "2026-03-06T19:49:26.270Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 30,
+  "fields": {
+    "lesson": 10,
+    "title": "Two-Fish Advanced",
+    "level": "advanced",
+    "created_at": "2026-03-06T19:49:41.608Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 31,
+  "fields": {
+    "lesson": 11,
+    "title": "RSA - Basics",
+    "level": "beginner",
+    "created_at": "2026-03-06T19:50:16.558Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 32,
+  "fields": {
+    "lesson": 11,
+    "title": "RSA - intermediate",
+    "level": "intermediate",
+    "created_at": "2026-03-06T19:50:34.428Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 33,
+  "fields": {
+    "lesson": 11,
+    "title": "RSA - Advanced",
+    "level": "advanced",
+    "created_at": "2026-03-06T19:50:53.334Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 34,
+  "fields": {
+    "lesson": 12,
+    "title": "Diffie-Hellman Basics",
+    "level": "beginner",
+    "created_at": "2026-03-06T19:51:24.048Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 35,
+  "fields": {
+    "lesson": 12,
+    "title": "Diffie-Hellman Intermediate",
+    "level": "intermediate",
+    "created_at": "2026-03-06T19:51:48.103Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 36,
+  "fields": {
+    "lesson": 12,
+    "title": "Diffie-Hellman Advanced",
+    "level": "advanced",
+    "created_at": "2026-03-06T19:52:15.982Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 37,
+  "fields": {
+    "lesson": 13,
+    "title": "ECC Basics",
+    "level": "beginner",
+    "created_at": "2026-03-06T19:52:34.776Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 38,
+  "fields": {
+    "lesson": 13,
+    "title": "ECC - Intermediate",
+    "level": "intermediate",
+    "created_at": "2026-03-06T19:53:09.596Z"
+  }
+},
+{
+  "model": "accounts.quiz",
+  "pk": 39,
+  "fields": {
+    "lesson": 13,
+    "title": "ECC - Advanced",
+    "level": "advanced",
+    "created_at": "2026-03-06T19:53:34.233Z"
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 1,
+  "fields": {
+    "quiz": 1,
+    "text": "What is the shift if A becomes D?",
+    "option1": "1",
+    "option2": "2",
+    "option3": "3",
+    "option4": "4",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 2,
+  "fields": {
+    "quiz": 4,
+    "text": "What is the result of encrypting \"HELLO\" with shift = 3 ?",
+    "option1": "IFMMP",
+    "option2": "KHOOR",
+    "option3": "JGNNQ",
+    "option4": "LIPPS",
+    "correct_answer": 2
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 3,
+  "fields": {
+    "quiz": 1,
+    "text": "What happens in Caesar Cipher?",
+    "option1": "Letters are replaced randomly",
+    "option2": "Letters are converted to numbers",
+    "option3": "Letters are reversed",
+    "option4": "Letters are shifted by fixed positions",
+    "correct_answer": 4
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 4,
+  "fields": {
+    "quiz": 2,
+    "text": "Vigenère cipher is classified as",
+    "option1": "Transposition cipher",
+    "option2": "Symmetric block cipher",
+    "option3": "Polyalphabetic substitution cipher",
+    "option4": "Asymmetric cipher",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 5,
+  "fields": {
+    "quiz": 2,
+    "text": "In the Vigenère cipher, when using the key \"KEY\", how is each letter encrypted ?",
+    "option1": "Each letter is shifted by the same fixed number",
+    "option2": "Each letter is shifted according to the repeating key letters",
+    "option3": "Letters are rearranged in columns",
+    "option4": "Letters are XORed with the key",
+    "correct_answer": 2
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 6,
+  "fields": {
+    "quiz": 2,
+    "text": "Encrypt \"HELLO\" using the Vigenère cipher with key \"KEY\" (A=0). What is the ciphertext?",
+    "option1": "RIJVS",
+    "option2": "KHOOR",
+    "option3": "LIPPS",
+    "option4": "RIFVS",
+    "correct_answer": 1
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 7,
+  "fields": {
+    "quiz": 3,
+    "text": "Mixed (Monoalphabetic) cipher is a type of",
+    "option1": "Transposition cipher",
+    "option2": "Polyalphabetic cipher",
+    "option3": "Substitution cipher",
+    "option4": "Public key cipher",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 8,
+  "fields": {
+    "quiz": 3,
+    "text": "In a mixed monoalphabetic cipher, the alphabet is",
+    "option1": "Shifted by a fixed number",
+    "option2": "Completely rearranged using a keyword",
+    "option3": "Divided into columns",
+    "option4": "XORed with a key",
+    "correct_answer": 2
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 9,
+  "fields": {
+    "quiz": 3,
+    "text": "The security of a mixed monoalphabetic cipher mainly depends on",
+    "option1": "Block size",
+    "option2": "Key length in bits",
+    "option3": "The secrecy of the mixed alphabet",
+    "option4": "Prime numbers",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 10,
+  "fields": {
+    "quiz": 3,
+    "text": "Which of the following is TRUE about mixed monoalphabetic cipher",
+    "option1": "Each letter may be encrypted differently each time",
+    "option2": "Each letter is always replaced by the same corresponding letter",
+    "option3": "It uses public and private keys",
+    "option4": "It works on binary data",
+    "correct_answer": 2
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 11,
+  "fields": {
+    "quiz": 3,
+    "text": "(Practical) \r\nIf the mixed alphabet key is ZEBRAS\r\nPlain alphabet: ABCDEFGHIJKLMNOPQRSTUVWXYZ\r\nCipher alphabet: ZEBRASCDFGHIJKLMNOPQTUVWXY\r\nWhat is the ciphertext of \"BAD\"",
+    "option1": "EAZ",
+    "option2": "RZE",
+    "option3": "REZ",
+    "option4": "BRZ",
+    "correct_answer": 1
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 12,
+  "fields": {
+    "quiz": 1,
+    "text": "A cipher is _________________________.",
+    "option1": "a person who makes up secret codes",
+    "option2": "an algorithm that is used to scramble text so that it can be passed in secret",
+    "option3": "a lock that can be used to lock a message in a lock box",
+    "option4": "any puzzle, such as a crossword or Sudoku puzzle",
+    "correct_answer": 2
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 13,
+  "fields": {
+    "quiz": 1,
+    "text": "A Caesar cipher is an example of a ______________________.",
+    "option1": "Transposition cipher",
+    "option2": "Bimodal Cipher",
+    "option3": "Substitution cipher",
+    "option4": "Symmetric cipher",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 14,
+  "fields": {
+    "quiz": 1,
+    "text": "In Caesar Cipher, letters are shifted by what?",
+    "option1": "A secret key number",
+    "option2": "A binary value",
+    "option3": "A hash value",
+    "option4": "A password",
+    "correct_answer": 1
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 15,
+  "fields": {
+    "quiz": 1,
+    "text": "Encrypt the letter M using Caesar Cipher with shift 3.",
+    "option1": "P",
+    "option2": "L",
+    "option3": "N",
+    "option4": "O",
+    "correct_answer": 1
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 16,
+  "fields": {
+    "quiz": 1,
+    "text": "Decrypt FDW with shift 3.",
+    "option1": "BAT",
+    "option2": "SAT",
+    "option3": "CAT",
+    "option4": "DOG",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 17,
+  "fields": {
+    "quiz": 1,
+    "text": "What is the key in Caesar Cipher?",
+    "option1": "The Shift Value",
+    "option2": "The Hash Function",
+    "option3": "The secrecy of the mixed alphabet",
+    "option4": "The plaintext",
+    "correct_answer": 1
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 18,
+  "fields": {
+    "quiz": 1,
+    "text": "What happens when a shift of 6 is used in Caesar Cipher?",
+    "option1": "etters are reversed",
+    "option2": "Letters are removed",
+    "option3": "Each letter moves 6 positions forward",
+    "option4": "Each letter moves 6 positions backward",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 19,
+  "fields": {
+    "quiz": 1,
+    "text": "Encrypt CAT with shift 3",
+    "option1": "FDW",
+    "option2": "CDF",
+    "option3": "MAF",
+    "option4": "GDX",
+    "correct_answer": 1
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 20,
+  "fields": {
+    "quiz": 4,
+    "text": "Decrypt KHOOR using shift 3",
+    "option1": "TEST",
+    "option2": "WORLD",
+    "option3": "HELLO",
+    "option4": "HOUSE",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 21,
+  "fields": {
+    "quiz": 4,
+    "text": "How many possible keys exist in Caesar Cipher for English alphabet?",
+    "option1": "27",
+    "option2": "28",
+    "option3": "6",
+    "option4": "26",
+    "correct_answer": 4
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 22,
+  "fields": {
+    "quiz": 4,
+    "text": "Caesar Cipher is an example of which cryptography category?",
+    "option1": "Hashing",
+    "option2": "Symmetric cryptography",
+    "option3": "Asymmetric cryptography",
+    "option4": "Digital signature",
+    "correct_answer": 2
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 23,
+  "fields": {
+    "quiz": 4,
+    "text": "What happens after reaching letter Z during encryption?",
+    "option1": "Use number",
+    "option2": "Skip letter",
+    "option3": "Stop encryption",
+    "option4": "Wrap around to A",
+    "correct_answer": 4
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 24,
+  "fields": {
+    "quiz": 4,
+    "text": "Encrypt DOG with shift 3.",
+    "option1": "GRJ",
+    "option2": "AWD",
+    "option3": "CDS",
+    "option4": "HYT",
+    "correct_answer": 1
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 25,
+  "fields": {
+    "quiz": 4,
+    "text": "Decrypt GRJ using shift 3.",
+    "option1": "CAT",
+    "option2": "BAT",
+    "option3": "SAT",
+    "option4": "DOG",
+    "correct_answer": 4
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 26,
+  "fields": {
+    "quiz": 4,
+    "text": "If the shift key is 5, encrypt ABC.",
+    "option1": "DEF",
+    "option2": "FGH",
+    "option3": "HIJ",
+    "option4": "EFJ",
+    "correct_answer": 2
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 27,
+  "fields": {
+    "quiz": 4,
+    "text": "Encrypt SECURITY with shift 1",
+    "option1": "TFDVSJUZ",
+    "option2": "UGEWTKVZ",
+    "option3": "RDBTQHSX",
+    "option4": "TFDSVJUZ",
+    "correct_answer": 1
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 28,
+  "fields": {
+    "quiz": 4,
+    "text": "Decrypt MJQQT with shift 5",
+    "option1": "HOUSE",
+    "option2": "TEST",
+    "option3": "WORLD",
+    "option4": "HELLO",
+    "correct_answer": 4
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 29,
+  "fields": {
+    "quiz": 5,
+    "text": "Which attack can easily break Caesar Cipher?",
+    "option1": "Replay attack",
+    "option2": "Man in the middle",
+    "option3": "SQL injection",
+    "option4": "Brute force attack",
+    "correct_answer": 4
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 30,
+  "fields": {
+    "quiz": 5,
+    "text": "Caesar Cipher is considered:",
+    "option1": "Unbreakable",
+    "option2": "Weak security",
+    "option3": "Moderately secure",
+    "option4": "Very secure",
+    "correct_answer": 2
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 31,
+  "fields": {
+    "quiz": 5,
+    "text": "The mathematical formula for Caesar encryption is:",
+    "option1": "E(x) = (x + k) mod 26",
+    "option2": "E(x) = k − x",
+    "option3": "E(x) = x² + k",
+    "option4": "E(x) = (x × k) mod 26",
+    "correct_answer": 1
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 32,
+  "fields": {
+    "quiz": 5,
+    "text": "The formula for Caesar decryption is:",
+    "option1": "D(x) = x + k²",
+    "option2": "D(x) = k + x²",
+    "option3": "D(x) = (x − k) mod 26",
+    "option4": "D(x) = (x × k) mod 26",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 33,
+  "fields": {
+    "quiz": 5,
+    "text": "Why is Caesar Cipher insecure today?",
+    "option1": "Uses hashing",
+    "option2": "Requires many keys",
+    "option3": "Complex algorithm",
+    "option4": "Small key space",
+    "correct_answer": 4
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 34,
+  "fields": {
+    "quiz": 5,
+    "text": "Caesar Cipher is mainly used today for:",
+    "option1": "Blockchain security",
+    "option2": "Educational purposes",
+    "option3": "Secure banking",
+    "option4": "Military encryption",
+    "correct_answer": 2
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 35,
+  "fields": {
+    "quiz": 5,
+    "text": "Encrypt the word CRYPTO using a Caesar cipher with key 7.",
+    "option1": "JYFWAV",
+    "option2": "JYFAVW",
+    "option3": "KZGXBW",
+    "option4": "IYEZUT",
+    "correct_answer": 1
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 36,
+  "fields": {
+    "quiz": 5,
+    "text": "If plaintext letter P is encrypted to W using Caesar Cipher, what is the shift key",
+    "option1": "5",
+    "option2": "6",
+    "option3": "7",
+    "option4": "8",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 37,
+  "fields": {
+    "quiz": 5,
+    "text": "If the Caesar cipher uses modulo arithmetic, what does the operation mod 26 ensure?",
+    "option1": "Cipher becomes symmetric",
+    "option2": "Key becomes larger",
+    "option3": "Encryption becomes faster",
+    "option4": "Letters remain within the alphabet range",
+    "correct_answer": 4
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 38,
+  "fields": {
+    "quiz": 5,
+    "text": "Which attack is most commonly used to break Caesar Cipher quickly?",
+    "option1": "Frequency analysis",
+    "option2": "Brute force",
+    "option3": "Differential cryptanalysis",
+    "option4": "Side channel attack",
+    "correct_answer": 2
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 39,
+  "fields": {
+    "quiz": 3,
+    "text": "Which of the following is a type of substitution cipher?",
+    "option1": "Mono alphabetic cipher",
+    "option2": "transposition cipher",
+    "option3": "transportation cipher",
+    "option4": "transforming cipher",
+    "correct_answer": 1
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 40,
+  "fields": {
+    "quiz": 3,
+    "text": "In a monoalphabetic substitution cipher, each plaintext letter is replaced by:",
+    "option1": "A number",
+    "option2": "The same ciphertext letter throughout the message",
+    "option3": "A random symbol every time",
+    "option4": "Multiple different letters",
+    "correct_answer": 2
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 41,
+  "fields": {
+    "quiz": 3,
+    "text": "How many possible substitution keys exist for a monoalphabetic cipher using the English alphabet?",
+    "option1": "26",
+    "option2": "52",
+    "option3": "26!",
+    "option4": "2^26",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 42,
+  "fields": {
+    "quiz": 3,
+    "text": "Which of the following is the main weakness of monoalphabetic ciphers?",
+    "option1": "Requires computers",
+    "option2": "Vulnerable to frequency analysis",
+    "option3": "Requires long keys",
+    "option4": "Slow encryption",
+    "correct_answer": 2
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 43,
+  "fields": {
+    "quiz": 3,
+    "text": "Monoalphabetic substitution replaces:",
+    "option1": "Sentences",
+    "option2": "Entire words",
+    "option3": "Individual characters",
+    "option4": "Blocks of characters",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 44,
+  "fields": {
+    "quiz": 8,
+    "text": "Given the key:\r\n\r\nPlain: ABCDEFGHIJKLMNOPQRSTUVWXYZ\r\nCipher: QWERTYUIOPASDFGHJKLZXCVBNM\r\n\r\nEncrypt the letter A",
+    "option1": "M",
+    "option2": "N",
+    "option3": "Q",
+    "option4": "A",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 45,
+  "fields": {
+    "quiz": 8,
+    "text": "If plaintext HELLO is encrypted using a monoalphabetic cipher, the same letter L will:",
+    "option1": "Always map to the same ciphertext letter",
+    "option2": "Become two letters",
+    "option3": "Disappear",
+    "option4": "Map to different letters",
+    "correct_answer": 1
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 46,
+  "fields": {
+    "quiz": 8,
+    "text": "Frequency analysis works against monoalphabetic ciphers because:",
+    "option1": "Encryption uses random keys",
+    "option2": "Ciphertext removes patterns",
+    "option3": "Encryption changes message length",
+    "option4": "Each letter always maps to the same substitution",
+    "correct_answer": 4
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 47,
+  "fields": {
+    "quiz": 8,
+    "text": "In English text, the most frequent letter is typically:",
+    "option1": "Z",
+    "option2": "Q",
+    "option3": "E",
+    "option4": "U",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 48,
+  "fields": {
+    "quiz": 8,
+    "text": "If the ciphertext contains many X characters, frequency analysis may suggest that X represents:",
+    "option1": "A punctuation mark",
+    "option2": "A number",
+    "option3": "A common plaintext letter",
+    "option4": "A rare letter",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 49,
+  "fields": {
+    "quiz": 8,
+    "text": "Monoalphabetic substitution ciphers preserve which property?",
+    "option1": "Cipher randomness",
+    "option2": "Letter frequency distribution",
+    "option3": "Word order",
+    "option4": "Letter positions",
+    "correct_answer": 2
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 50,
+  "fields": {
+    "quiz": 8,
+    "text": "A monoalphabetic cipher can be broken efficiently using:",
+    "option1": "Public key cryptography",
+    "option2": "Hash functions",
+    "option3": "Brute force only",
+    "option4": "Frequency analysis",
+    "correct_answer": 4
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 51,
+  "fields": {
+    "quiz": 8,
+    "text": "Which attack method historically broke substitution ciphers?",
+    "option1": "Differential cryptanalysis",
+    "option2": "Linear cryptanalysis",
+    "option3": "Frequency analysis",
+    "option4": "Quantum cryptanalysis",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 52,
+  "fields": {
+    "quiz": 8,
+    "text": "A substitution key is essentially:",
+    "option1": "A binary sequence",
+    "option2": "A number",
+    "option3": "A matrix",
+    "option4": "A permutation of the alphabet",
+    "correct_answer": 4
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 53,
+  "fields": {
+    "quiz": 8,
+    "text": "Which field historically used monoalphabetic ciphers?",
+    "option1": "Database indexing",
+    "option2": "Image processing",
+    "option3": "Military communication",
+    "option4": "Video compression",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 54,
+  "fields": {
+    "quiz": 9,
+    "text": "Why does monoalphabetic substitution fail to provide strong security?",
+    "option1": "It requires large keys",
+    "option2": "Encryption is slow",
+    "option3": "The key space is small",
+    "option4": "Language redundancy reveals patterns",
+    "correct_answer": 4
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 55,
+  "fields": {
+    "quiz": 9,
+    "text": "Which property of natural languages helps attackers break substitution ciphers?",
+    "option1": "Redundancy and predictable letter frequencies",
+    "option2": "Error correction",
+    "option3": "Binary encoding",
+    "option4": "Random letter distribution",
+    "correct_answer": 1
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 56,
+  "fields": {
+    "quiz": 9,
+    "text": "If ciphertext shows repeated patterns such as:\r\nXZT XZT XZT\r\n\r\nThis may indicate:",
+    "option1": "Encryption error",
+    "option2": "Repeated plaintext words",
+    "option3": "Random noise",
+    "option4": "Hash collision",
+    "correct_answer": 2
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 57,
+  "fields": {
+    "quiz": 9,
+    "text": "In a substitution cipher attack, analysts often start by identifying:",
+    "option1": "The shortest word",
+    "option2": "The first letter",
+    "option3": "The longest word",
+    "option4": "The most frequent letters",
+    "correct_answer": 4
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 58,
+  "fields": {
+    "quiz": 9,
+    "text": "A monoalphabetic substitution cipher is mathematically equivalent to which concept?",
+    "option1": "Modular exponentiation",
+    "option2": "Bitwise substitution",
+    "option3": "Matrix multiplication",
+    "option4": "Permutation of the alphabet",
+    "correct_answer": 4
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 59,
+  "fields": {
+    "quiz": 9,
+    "text": "Even though the keyspace of a monoalphabetic substitution cipher is 26!, why is brute force rarely necessary to break it?",
+    "option1": "Encryption errors occur frequently",
+    "option2": "Keys are reused frequently",
+    "option3": "Natural language statistics significantly reduce the search space",
+    "option4": "The encryption algorithm is reversible",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 60,
+  "fields": {
+    "quiz": 9,
+    "text": "In English, the letters E, T, A, O appear frequently. In a substitution cipher, this property helps attackers because:",
+    "option1": "Keys must be reused",
+    "option2": "Encryption removes redundant information",
+    "option3": "The substitution preserves the relative frequency distribution",
+    "option4": "Ciphertext letters appear randomly",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 61,
+  "fields": {
+    "quiz": 9,
+    "text": "A mixed cipher is created using the keyword KEY.\r\n\r\nPlain Alphabet\r\nABCDEFGHIJKLMNOPQRSTUVWXYZ\r\n\r\nCipher Alphabet\r\nKEYABCDFGHIJLMNOPQRSTUVWXZ\r\n\r\nEncrypt the plaintext HELLO.",
+    "option1": "FCJJM",
+    "option2": "IFMMP",
+    "option3": "KHOOR",
+    "option4": "JGNNQ",
+    "correct_answer": 1
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 62,
+  "fields": {
+    "quiz": 9,
+    "text": "A mixed cipher is built using the keyword SECRET.\r\n\r\nCipher Alphabet becomes:\r\n\r\nSECRTABDFGHIJKLMNOPQUVWXYZ\r\n\r\nPlain Alphabet\r\nABCDEFGHIJKLMNOPQRSTUVWXYZ\r\n\r\nWhat is the encryption of DATA?",
+    "option1": "LALA",
+    "option2": "RSQS",
+    "option3": "TSTS",
+    "option4": "QRTW",
+    "correct_answer": 2
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 63,
+  "fields": {
+    "quiz": 9,
+    "text": "A mixed cipher uses the keyword CRYPTO.\r\n\r\nCipher Alphabet:\r\n\r\nCRYPTOABDEFGHIJKLMNQSUVWXZ\r\n\r\nEncrypt the plaintext SECURE.",
+    "option1": "NPYUMT",
+    "option2": "OQXVMP",
+    "option3": "SECRUE",
+    "option4": "NTYUMT",
+    "correct_answer": 4
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 64,
+  "fields": {
+    "quiz": 2,
+    "text": "Which historical figure is commonly associated with the Vigenère cipher?",
+    "option1": "Claude Shannon",
+    "option2": "Julius Caesar",
+    "option3": "Blaise de Vigenère",
+    "option4": "Alan Turing",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 65,
+  "fields": {
+    "quiz": 2,
+    "text": "Which table is traditionally used to implement the Vigenère cipher?",
+    "option1": "AES S-box",
+    "option2": "Hill matrix",
+    "option3": "Vigenère square (tabula recta)",
+    "option4": "Playfair table",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 66,
+  "fields": {
+    "quiz": 2,
+    "text": "In the Vigenère cipher, each plaintext letter is encrypted using:",
+    "option1": "The same shift value",
+    "option2": "A shift determined by the corresponding key letter",
+    "option3": "A random shift",
+    "option4": "Binary substitution",
+    "correct_answer": 2
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 67,
+  "fields": {
+    "quiz": 2,
+    "text": "The Vigenère cipher is more secure than a monoalphabetic cipher because it:",
+    "option1": "Eliminates redundancy in text",
+    "option2": "Encrypts entire sentences at once",
+    "option3": "Uses multiple substitution alphabets",
+    "option4": "Uses a longer alphabet",
+    "correct_answer": 4
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 68,
+  "fields": {
+    "quiz": 2,
+    "text": "Which of the following describes the Vigenère cipher?",
+    "option1": "It rearranges letters in the message",
+    "option2": "It uses a repeating keyword to shift letters",
+    "option3": "It uses public and private keys",
+    "option4": "It encrypts binary data only",
+    "correct_answer": 2
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 69,
+  "fields": {
+    "quiz": 2,
+    "text": "Which of the following is a common example used to explain the Vigenère cipher?",
+    "option1": "DATA → RSQS",
+    "option2": "ATTACKATDAWN → LXFOPVEFRNHR",
+    "option3": "HELLO → KHOOR",
+    "option4": "TEST → WXYZ",
+    "correct_answer": 2
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 70,
+  "fields": {
+    "quiz": 2,
+    "text": "The key in a Vigenère cipher is used to:",
+    "option1": "Compress the message",
+    "option2": "Replace letters with numbers",
+    "option3": "Determine the shift applied to each letter",
+    "option4": "Rearrange the plaintext letters",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 71,
+  "fields": {
+    "quiz": 6,
+    "text": "Encrypt the plaintext ATTACK using the key LEMON.\r\n\r\nPlaintext: ATTACK\r\nKey: LEMONLE\r\n\r\nWhat is the ciphertext?",
+    "option1": "LXFOPV",
+    "option2": "QWERTY",
+    "option3": "KHOORZ",
+    "option4": "ZICVTW",
+    "correct_answer": 1
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 72,
+  "fields": {
+    "quiz": 6,
+    "text": "In the Vigenère cipher, encryption is typically performed using:",
+    "option1": "Addition modulo 26",
+    "option2": "Binary rotation",
+    "option3": "XOR operation",
+    "option4": "Matrix multiplication",
+    "correct_answer": 1
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 73,
+  "fields": {
+    "quiz": 6,
+    "text": "Which formula represents Vigenère encryption?",
+    "option1": "C = (P XOR K)",
+    "option2": "C = (P × K) mod 26",
+    "option3": "C = (P − K) mod 26",
+    "option4": "C = (P + K_i) mod 26",
+    "correct_answer": 4
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 74,
+  "fields": {
+    "quiz": 6,
+    "text": "Decrypt the ciphertext LXFOPV using the key LEMON.",
+    "option1": "HELLO",
+    "option2": "ATTACK",
+    "option3": "SECRET",
+    "option4": "DEFEND",
+    "correct_answer": 2
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 75,
+  "fields": {
+    "quiz": 6,
+    "text": "If plaintext letter B is encrypted using key letter D, what is the ciphertext letter?",
+    "option1": "B",
+    "option2": "D",
+    "option3": "E",
+    "option4": "T",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 76,
+  "fields": {
+    "quiz": 6,
+    "text": "Which property makes Vigenère more resistant to frequency analysis than monoalphabetic ciphers?",
+    "option1": "It uses numbers instead of letters",
+    "option2": "The ciphertext is shorter than plaintext",
+    "option3": "It removes repeated letters",
+    "option4": "Each plaintext letter may map to different ciphertext letters",
+    "correct_answer": 4
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 77,
+  "fields": {
+    "quiz": 6,
+    "text": "When encrypting using Vigenère, if the plaintext is longer than the key:",
+    "option1": "The key is ignored",
+    "option2": "The key is reversed",
+    "option3": "Encryption stops",
+    "option4": "The key is repeated",
+    "correct_answer": 4
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 78,
+  "fields": {
+    "quiz": 6,
+    "text": "suppose you have the key=KEY , and the plaintext=HELLO\r\nwhat would the key permutation look like?",
+    "option1": "KEYKE",
+    "option2": "KEYKEY",
+    "option3": "KEYKEYKEY",
+    "option4": "KEYK",
+    "correct_answer": 1
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 79,
+  "fields": {
+    "quiz": 6,
+    "text": "In the Vigenère cipher, the key letter A corresponds to:",
+    "option1": "Shift of 0",
+    "option2": "Shift of 1",
+    "option3": "shift of 2",
+    "option4": "Shift of 3",
+    "correct_answer": 1
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 80,
+  "fields": {
+    "quiz": 6,
+    "text": "Which of the following best describes the encryption process of Vigenère?",
+    "option1": "Rearranging letters based on a key",
+    "option2": "Replacing letters using multiple Caesar shifts",
+    "option3": "Compressing the message",
+    "option4": "Encoding text into numbers",
+    "correct_answer": 2
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 81,
+  "fields": {
+    "quiz": 7,
+    "text": "The Vigenère cipher can be viewed as a sequence of which simpler cipher applied with different shifts?",
+    "option1": "Rail Fence cipher",
+    "option2": "Hill cipher",
+    "option3": "Caesar cipher",
+    "option4": "Playfair cipher",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 82,
+  "fields": {
+    "quiz": 7,
+    "text": "Which classical cryptanalysis technique is commonly used to estimate the key length of a Vigenère cipher?",
+    "option1": "Linear cryptanalysis",
+    "option2": "Brute-force search",
+    "option3": "Kasiski examination",
+    "option4": "Differential cryptanalysis",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 83,
+  "fields": {
+    "quiz": 7,
+    "text": "The Kasiski examination is based on detecting:",
+    "option1": "Hash collisions",
+    "option2": "Prime numbers in keys",
+    "option3": "Repeated sequences of characters",
+    "option4": "Binary patterns in ciphertext",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 84,
+  "fields": {
+    "quiz": 7,
+    "text": "Once the key length of a Vigenère cipher is known, the ciphertext can be separated into groups that correspond to:",
+    "option1": "Hash functions",
+    "option2": "Block permutations",
+    "option3": "Transposition ciphers",
+    "option4": "Independent Caesar ciphers",
+    "correct_answer": 4
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 85,
+  "fields": {
+    "quiz": 7,
+    "text": "Which statistical method is often used to estimate the key length in Vigenère cryptanalysis?",
+    "option1": "Diffusion analysis",
+    "option2": "Bitwise correlation",
+    "option3": "Matrix determinant",
+    "option4": "Index of Coincidence",
+    "correct_answer": 4
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 86,
+  "fields": {
+    "quiz": 7,
+    "text": "If the Vigenère key length is k, the ciphertext can be divided into how many independent sequences for analysis?",
+    "option1": "k sequences",
+    "option2": "26 sequences",
+    "option3": "2k sequences",
+    "option4": "√k sequences",
+    "correct_answer": 1
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 87,
+  "fields": {
+    "quiz": 7,
+    "text": "Why is the Vigenère cipher more resistant to simple frequency analysis than monoalphabetic substitution?",
+    "option1": "It compresses the message",
+    "option2": "It encrypts using binary encoding",
+    "option3": "It distributes plaintext frequencies across multiple alphabets",
+    "option4": "It encrypts using binary encoding",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 88,
+  "fields": {
+    "quiz": 7,
+    "text": "Which property of the Vigenère cipher leads to its vulnerability when the key is repeated",
+    "option1": "Keys are publicly known",
+    "option2": "Encryption becomes non-deterministic",
+    "option3": "Ciphertext length becomes shorte",
+    "option4": "Key reuse introduces periodic patterns in ciphertext",
+    "correct_answer": 4
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 89,
+  "fields": {
+    "quiz": 7,
+    "text": "Which major cryptographic principle is weakened in the classical Vigenère cipher due to the repeating key?",
+    "option1": "Message integrity",
+    "option2": "Periodicity resistance",
+    "option3": "Key secrecy",
+    "option4": "Diffusion",
+    "correct_answer": 2
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 90,
+  "fields": {
+    "quiz": 7,
+    "text": "Which situation makes the Vigenère cipher particularly vulnerable to cryptanalysis?",
+    "option1": "Very short messages",
+    "option2": "Binary plaintext",
+    "option3": "A very short repeating key",
+    "option4": "A long non-repeating key",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 91,
+  "fields": {
+    "quiz": 10,
+    "text": "DES stands for:",
+    "option1": "Distributed Encryption Scheme",
+    "option2": "Data Encryption Standard",
+    "option3": "Data Encryption System",
+    "option4": "Digital Encryption Standard",
+    "correct_answer": 2
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 92,
+  "fields": {
+    "quiz": 10,
+    "text": "DES is classified as which type of cipher?",
+    "option1": "Stream cipher",
+    "option2": "Hash function",
+    "option3": "Symmetric block cipher",
+    "option4": "Asymmetric cipher",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 93,
+  "fields": {
+    "quiz": 10,
+    "text": "DES encrypts data in blocks of:",
+    "option1": "32 bits",
+    "option2": "64 bits",
+    "option3": "128 bits",
+    "option4": "256 bits",
+    "correct_answer": 2
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 94,
+  "fields": {
+    "quiz": 10,
+    "text": "The effective key length of DES is:",
+    "option1": "128 bits",
+    "option2": "48 bits",
+    "option3": "128 bits",
+    "option4": "56 bits",
+    "correct_answer": 4
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 95,
+  "fields": {
+    "quiz": 10,
+    "text": "DES was originally adopted as a federal standard in:",
+    "option1": "1977",
+    "option2": "1962",
+    "option3": "1976",
+    "option4": "1972",
+    "correct_answer": 1
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 96,
+  "fields": {
+    "quiz": 10,
+    "text": "Which organization originally developed DES?",
+    "option1": "Intel",
+    "option2": "Microsoft",
+    "option3": "IBM",
+    "option4": "AT&T",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 97,
+  "fields": {
+    "quiz": 10,
+    "text": "DES encryption consists of how many rounds?",
+    "option1": "8",
+    "option2": "16",
+    "option3": "10",
+    "option4": "32",
+    "correct_answer": 2
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 98,
+  "fields": {
+    "quiz": 10,
+    "text": "DES is based on which cryptographic structure?",
+    "option1": "Feistel network",
+    "option2": "Substitution matrix",
+    "option3": "Hash compression function",
+    "option4": "Diffusion network",
+    "correct_answer": 1
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 99,
+  "fields": {
+    "quiz": 10,
+    "text": "In symmetric encryption such as DES, the same key is used for:",
+    "option1": "Encryption only",
+    "option2": "Decryption only",
+    "option3": "Both encryption and decryption",
+    "option4": "Hash verification",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 100,
+  "fields": {
+    "quiz": 10,
+    "text": "Which of the following is the primary goal of DES?",
+    "option1": "Data compression",
+    "option2": "Data integrity",
+    "option3": "Confidentiality of information",
+    "option4": "Authentication",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 101,
+  "fields": {
+    "quiz": 11,
+    "text": "In DES, each round primarily consists of:",
+    "option1": "Matrix multiplication",
+    "option2": "Hashing operations",
+    "option3": "Modular exponentiation",
+    "option4": "Substitution and permutation operations",
+    "correct_answer": 4
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 102,
+  "fields": {
+    "quiz": 11,
+    "text": "The DES algorithm begins with:",
+    "option1": "Final permutation",
+    "option2": "S-box substitution",
+    "option3": "Initial permutation (IP)",
+    "option4": "Key generation",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 103,
+  "fields": {
+    "quiz": 11,
+    "text": "At the end of the DES algorithm, which operation is performed?",
+    "option1": "S-box compression",
+    "option2": "Key scheduling",
+    "option3": "Final permutation (IP⁻¹)",
+    "option4": "Expansion permutation",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 104,
+  "fields": {
+    "quiz": 11,
+    "text": "In DES, the right half of the data block is expanded from 32 bits to:",
+    "option1": "128 bits",
+    "option2": "64 bits",
+    "option3": "56 bits",
+    "option4": "48 bits",
+    "correct_answer": 4
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 105,
+  "fields": {
+    "quiz": 11,
+    "text": "What is the purpose of the DES S-boxes?",
+    "option1": "Generate random keys",
+    "option2": "Rearrange ciphertext bits",
+    "option3": "Provide nonlinear substitution",
+    "option4": "Expand the key size",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 106,
+  "fields": {
+    "quiz": 11,
+    "text": "In each DES round, the expanded right half is combined with the round key using:",
+    "option1": "Matrix multiplication",
+    "option2": "Bit shifting",
+    "option3": "XOR operation",
+    "option4": "Addition modulo 2³²",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 107,
+  "fields": {
+    "quiz": 11,
+    "text": "The key scheduling process in DES generates:",
+    "option1": "8 round keys",
+    "option2": "12 round keys",
+    "option3": "16 round keys",
+    "option4": "12 round keys",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 108,
+  "fields": {
+    "quiz": 11,
+    "text": "Each round key used in DES has a size of:",
+    "option1": "32 bits",
+    "option2": "48 bits",
+    "option3": "128 bits",
+    "option4": "256 bits",
+    "correct_answer": 2
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 109,
+  "fields": {
+    "quiz": 11,
+    "text": "The Feistel structure used in DES allows:",
+    "option1": "Data compression",
+    "option2": "Parallel key generation",
+    "option3": "Decryption without reversing the algorithm structure",
+    "option4": "Encryption only",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 110,
+  "fields": {
+    "quiz": 11,
+    "text": "Which operation in DES helps achieve diffusion by rearranging bits?",
+    "option1": "Key schedule",
+    "option2": "XOR operation",
+    "option3": "Permutation boxes (P-boxes)",
+    "option4": "S-boxes",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 111,
+  "fields": {
+    "quiz": 12,
+    "text": "The main reason DES is considered insecure today is:",
+    "option1": "Small key size allowing brute-force attacks",
+    "option2": "Use of symmetric keys",
+    "option3": "Lack of permutation operations",
+    "option4": "Weak encryption structure",
+    "correct_answer": 1
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 112,
+  "fields": {
+    "quiz": 12,
+    "text": "Which attack was historically demonstrated to break DES by exhaustive search?",
+    "option1": "Linear attack",
+    "option2": "Side-channel attack",
+    "option3": "Brute-force attack",
+    "option4": "Dictionary attack",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 113,
+  "fields": {
+    "quiz": 12,
+    "text": "In 1998, the Electronic Frontier Foundation (EFF) built a machine that cracked DES in approximately:",
+    "option1": "One minute",
+    "option2": "One year",
+    "option3": "One month",
+    "option4": "Less than three days",
+    "correct_answer": 4
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 114,
+  "fields": {
+    "quiz": 12,
+    "text": "Which cryptanalysis technique studies the relationship between plaintext, ciphertext, and key bits using linear approximations?",
+    "option1": "Differential cryptanalysis",
+    "option2": "Linear cryptanalysis",
+    "option3": "Frequency analysis",
+    "option4": "Meet-in-the-middle attack",
+    "correct_answer": 2
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 115,
+  "fields": {
+    "quiz": 12,
+    "text": "Which attack analyzes how differences in plaintext affect differences in ciphertext?",
+    "option1": "Side-channel attack",
+    "option2": "Frequency attack",
+    "option3": "Differential cryptanalysis",
+    "option4": "Linear cryptanalysis",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 116,
+  "fields": {
+    "quiz": 12,
+    "text": "DES was designed with resistance against which attack in mind?",
+    "option1": "Meet-in-the-middle attack",
+    "option2": "Side-channel attack",
+    "option3": "Differential cryptanalysis",
+    "option4": "Brute-force attack",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 117,
+  "fields": {
+    "quiz": 12,
+    "text": "Which algorithm was introduced to strengthen DES by applying it multiple times?",
+    "option1": "AES",
+    "option2": "3DES",
+    "option3": "TwoFish",
+    "option4": "ECC",
+    "correct_answer": 2
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 118,
+  "fields": {
+    "quiz": 12,
+    "text": "Which property of DES ensures that a small change in plaintext produces a large change in ciphertext?",
+    "option1": "Key expansion",
+    "option2": "Avalanche effect",
+    "option3": "Confusion",
+    "option4": "Diffusion",
+    "correct_answer": 2
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 119,
+  "fields": {
+    "quiz": 12,
+    "text": "In the DES Feistel structure, after each round:",
+    "option1": "The block size increases",
+    "option2": "The key is doubled in size",
+    "option3": "The left and right halves are swapped",
+    "option4": "The left and right halves remain unchanged",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 120,
+  "fields": {
+    "quiz": 12,
+    "text": "Which component of DES is primarily responsible for introducing nonlinearity into the encryption process?",
+    "option1": "Key permutation",
+    "option2": "S-boxes",
+    "option3": "XOR operation",
+    "option4": "Initial permutation",
+    "correct_answer": 2
+  }
+},
+{
+  "model": "accounts.question",
+  "pk": 121,
+  "fields": {
+    "quiz": 22,
+    "text": "Triple DES (3DES) was introduced primarily to:",
+    "option1": "Reduce encryption time",
+    "option2": "Compress encrypted data",
+    "option3": "Strengthen the security of the original DES algorithm",
+    "option4": "Replace asymmetric cryptography",
+    "correct_answer": 3
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "quiz": 1,
+    "score": 2,
+    "taken_at": "2026-02-26T21:22:19.711Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 2,
+  "fields": {
+    "user": 1,
+    "quiz": 1,
+    "score": 1,
+    "taken_at": "2026-02-27T18:14:58.459Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 3,
+  "fields": {
+    "user": 1,
+    "quiz": 1,
+    "score": 1,
+    "taken_at": "2026-02-27T18:16:18.937Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 4,
+  "fields": {
+    "user": 1,
+    "quiz": 2,
+    "score": 0,
+    "taken_at": "2026-02-27T18:21:05.194Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 5,
+  "fields": {
+    "user": 1,
+    "quiz": 1,
+    "score": 2,
+    "taken_at": "2026-02-27T18:26:01.492Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 6,
+  "fields": {
+    "user": 1,
+    "quiz": 1,
+    "score": 3,
+    "taken_at": "2026-02-27T18:30:21.666Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 7,
+  "fields": {
+    "user": 4,
+    "quiz": 1,
+    "score": 1,
+    "taken_at": "2026-02-27T20:21:31.983Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 8,
+  "fields": {
+    "user": 4,
+    "quiz": 2,
+    "score": 0,
+    "taken_at": "2026-02-27T20:21:41.691Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 9,
+  "fields": {
+    "user": 5,
+    "quiz": 2,
+    "score": 0,
+    "taken_at": "2026-02-27T20:25:46.368Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 10,
+  "fields": {
+    "user": 5,
+    "quiz": 1,
+    "score": 2,
+    "taken_at": "2026-02-27T20:26:04.785Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 11,
+  "fields": {
+    "user": 1,
+    "quiz": 1,
+    "score": 3,
+    "taken_at": "2026-02-27T20:39:02.781Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 12,
+  "fields": {
+    "user": 4,
+    "quiz": 1,
+    "score": 3,
+    "taken_at": "2026-03-02T13:18:04.071Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 13,
+  "fields": {
+    "user": 1,
+    "quiz": 2,
+    "score": 0,
+    "taken_at": "2026-03-02T18:06:43.774Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 14,
+  "fields": {
+    "user": 1,
+    "quiz": 1,
+    "score": 3,
+    "taken_at": "2026-03-02T18:07:17.834Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 15,
+  "fields": {
+    "user": 5,
+    "quiz": 2,
+    "score": 0,
+    "taken_at": "2026-03-02T20:15:42.782Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 16,
+  "fields": {
+    "user": 5,
+    "quiz": 2,
+    "score": 0,
+    "taken_at": "2026-03-02T20:15:50.418Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 17,
+  "fields": {
+    "user": 1,
+    "quiz": 2,
+    "score": 2,
+    "taken_at": "2026-03-02T20:39:19.282Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 18,
+  "fields": {
+    "user": 1,
+    "quiz": 3,
+    "score": 4,
+    "taken_at": "2026-03-02T20:56:42.362Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 19,
+  "fields": {
+    "user": 1,
+    "quiz": 3,
+    "score": 5,
+    "taken_at": "2026-03-02T20:58:18.849Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 20,
+  "fields": {
+    "user": 1,
+    "quiz": 2,
+    "score": 2,
+    "taken_at": "2026-03-03T17:00:39.244Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 21,
+  "fields": {
+    "user": 1,
+    "quiz": 3,
+    "score": 5,
+    "taken_at": "2026-03-03T17:01:22.793Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 22,
+  "fields": {
+    "user": 4,
+    "quiz": 2,
+    "score": 0,
+    "taken_at": "2026-03-03T17:55:01.480Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 23,
+  "fields": {
+    "user": 1,
+    "quiz": 1,
+    "score": 0,
+    "taken_at": "2026-03-04T20:15:50.564Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 24,
+  "fields": {
+    "user": 1,
+    "quiz": 1,
+    "score": 3,
+    "taken_at": "2026-03-04T20:19:25.392Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 25,
+  "fields": {
+    "user": 6,
+    "quiz": 1,
+    "score": 3,
+    "taken_at": "2026-03-06T17:53:23.741Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 26,
+  "fields": {
+    "user": 1,
+    "quiz": 10,
+    "score": 0,
+    "taken_at": "2026-03-06T18:44:27.288Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 27,
+  "fields": {
+    "user": 1,
+    "quiz": 4,
+    "score": 2,
+    "taken_at": "2026-03-14T18:45:19.117Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 28,
+  "fields": {
+    "user": 1,
+    "quiz": 4,
+    "score": 1,
+    "taken_at": "2026-03-14T18:46:40.342Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 29,
+  "fields": {
+    "user": 1,
+    "quiz": 4,
+    "score": 1,
+    "taken_at": "2026-03-14T18:49:02.559Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 30,
+  "fields": {
+    "user": 1,
+    "quiz": 4,
+    "score": 2,
+    "taken_at": "2026-03-14T18:50:04.898Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 31,
+  "fields": {
+    "user": 1,
+    "quiz": 4,
+    "score": 5,
+    "taken_at": "2026-03-14T19:01:21.417Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 32,
+  "fields": {
+    "user": 1,
+    "quiz": 5,
+    "score": 5,
+    "taken_at": "2026-03-14T19:03:23.778Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 33,
+  "fields": {
+    "user": 1,
+    "quiz": 2,
+    "score": 5,
+    "taken_at": "2026-03-15T22:50:09.759Z"
+  }
+},
+{
+  "model": "accounts.quizresult",
+  "pk": 34,
+  "fields": {
+    "user": 1,
+    "quiz": 6,
+    "score": 5,
+    "taken_at": "2026-03-15T22:51:25.494Z"
+  }
+},
+{
+  "model": "accounts.discussionpost",
+  "pk": 6,
+  "fields": {
+    "user": 1,
+    "content": "how does rsa algorithm work",
+    "created_at": "2026-02-27T19:13:16.791Z"
+  }
+},
+{
+  "model": "accounts.discussionpost",
+  "pk": 7,
+  "fields": {
+    "user": 1,
+    "content": "how does key generations works for AES?",
+    "created_at": "2026-02-27T19:14:18.442Z"
+  }
+},
+{
+  "model": "accounts.discussionpost",
+  "pk": 8,
+  "fields": {
+    "user": 1,
+    "content": "how does des works \r\n",
+    "created_at": "2026-02-27T20:41:39.990Z"
+  }
+},
+{
+  "model": "accounts.discussionpost",
+  "pk": 9,
+  "fields": {
+    "user": 1,
+    "content": "how does subBytes exactly works ?\r\n",
+    "created_at": "2026-03-02T16:31:58.020Z"
+  }
+},
+{
+  "model": "accounts.discussionpost",
+  "pk": 10,
+  "fields": {
+    "user": 5,
+    "content": "how does the des cipher work \r\n?",
+    "created_at": "2026-03-02T20:18:53.620Z"
+  }
+},
+{
+  "model": "accounts.discussionpost",
+  "pk": 11,
+  "fields": {
+    "user": 1,
+    "content": "hello can i get help with DES ?",
+    "created_at": "2026-03-03T17:02:07.736Z"
+  }
+},
+{
+  "model": "accounts.reply",
+  "pk": 7,
+  "fields": {
+    "post": 8,
+    "user": 1,
+    "content": "you can review the lessons ",
+    "created_at": "2026-02-27T20:42:03.278Z"
+  }
+},
+{
+  "model": "accounts.reply",
+  "pk": 8,
+  "fields": {
+    "post": 10,
+    "user": 5,
+    "content": "you can review the lessons ",
+    "created_at": "2026-03-02T20:19:03.421Z"
+  }
+},
+{
+  "model": "accounts.quizprogress",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "quiz": 1,
+    "passed": false,
+    "score": 0,
+    "completed_at": "2026-03-04T20:15:50.572Z"
+  }
+},
+{
+  "model": "accounts.quizprogress",
+  "pk": 2,
+  "fields": {
+    "user": 1,
+    "quiz": 1,
+    "passed": true,
+    "score": 3,
+    "completed_at": "2026-03-04T20:19:25.402Z"
+  }
+},
+{
+  "model": "accounts.quizprogress",
+  "pk": 3,
+  "fields": {
+    "user": 6,
+    "quiz": 1,
+    "passed": true,
+    "score": 3,
+    "completed_at": "2026-03-06T17:53:23.752Z"
+  }
+},
+{
+  "model": "accounts.quizprogress",
+  "pk": 4,
+  "fields": {
+    "user": 1,
+    "quiz": 10,
+    "passed": false,
+    "score": 0,
+    "completed_at": "2026-03-06T18:44:27.302Z"
+  }
+},
+{
+  "model": "accounts.quizprogress",
+  "pk": 5,
+  "fields": {
+    "user": 1,
+    "quiz": 4,
+    "passed": false,
+    "score": 2,
+    "completed_at": "2026-03-14T18:45:19.128Z"
+  }
+},
+{
+  "model": "accounts.quizprogress",
+  "pk": 6,
+  "fields": {
+    "user": 1,
+    "quiz": 4,
+    "passed": false,
+    "score": 1,
+    "completed_at": "2026-03-14T18:46:40.350Z"
+  }
+},
+{
+  "model": "accounts.quizprogress",
+  "pk": 7,
+  "fields": {
+    "user": 1,
+    "quiz": 4,
+    "passed": false,
+    "score": 1,
+    "completed_at": "2026-03-14T18:49:02.579Z"
+  }
+},
+{
+  "model": "accounts.quizprogress",
+  "pk": 8,
+  "fields": {
+    "user": 1,
+    "quiz": 4,
+    "passed": false,
+    "score": 2,
+    "completed_at": "2026-03-14T18:50:04.919Z"
+  }
+},
+{
+  "model": "accounts.quizprogress",
+  "pk": 9,
+  "fields": {
+    "user": 1,
+    "quiz": 4,
+    "passed": true,
+    "score": 5,
+    "completed_at": "2026-03-14T19:01:21.435Z"
+  }
+},
+{
+  "model": "accounts.quizprogress",
+  "pk": 10,
+  "fields": {
+    "user": 1,
+    "quiz": 5,
+    "passed": true,
+    "score": 5,
+    "completed_at": "2026-03-14T19:03:23.788Z"
+  }
+},
+{
+  "model": "accounts.quizprogress",
+  "pk": 11,
+  "fields": {
+    "user": 1,
+    "quiz": 2,
+    "passed": true,
+    "score": 5,
+    "completed_at": "2026-03-15T22:50:09.774Z"
+  }
+},
+{
+  "model": "accounts.quizprogress",
+  "pk": 12,
+  "fields": {
+    "user": 1,
+    "quiz": 6,
+    "passed": true,
+    "score": 5,
+    "completed_at": "2026-03-15T22:51:25.513Z"
+  }
+},
+{
+  "model": "accounts.certificate",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "lesson": 1,
+    "issued_at": "2026-03-14T19:03:23.796Z"
+  }
+},
+{
+  "model": "accounts.badge",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "lesson": 1,
+    "name": "Caesar cipher Master",
+    "earned_at": "2026-03-14T19:03:23.811Z"
+  }
+}
+]
