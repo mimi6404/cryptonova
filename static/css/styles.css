@@ -417,3 +417,19 @@ input[type="radio"] {
     margin-left: 10px;   /* قربه أكثر لليسار */
     margin-bottom: 20px;
 }
+.badges-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.badge-item {
+    background: #1c2f4a;
+    border: 1px solid #38bdf8;
+    border-radius: 12px;
+    padding: 15px 20px;
+    min-width: 220px;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}

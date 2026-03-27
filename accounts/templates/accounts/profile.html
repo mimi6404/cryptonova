@@ -56,5 +56,21 @@
         </div>
 
     </div>
+<div class="profile-box card" style="margin-top: 20px;">
+    <h3>My Badges</h3>
 
+    {% if badges %}
+        <div class="badges-list">
+            {% for badge in badges %}
+                <div class="badge-item">
+                    <strong>🏅 {{ badge.name }}</strong><br>
+                    <span>{{ badge.lesson.title }}</span><br>
+                    <small>{{ badge.earned_at }}</small>
+                </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <p>No badges earned yet.</p>
+    {% endif %}
+</div>
 </div>
