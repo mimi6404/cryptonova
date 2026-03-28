@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from .forms import RegisterForm
 from django.shortcuts import get_object_or_404
 from django.contrib.auth import login
+from django.contrib.auth.models import User
 from django.contrib.auth.decorators import login_required
 from django.db.models import Avg, Max, Count, Sum
 from django.db.models import F
@@ -15,7 +16,8 @@ from .models import (
     Badge,
     DiscussionPost,
     Reply,
-    Lesson
+    Lesson,
+    SiteVisit
 )
 
 def register(request):
@@ -32,6 +34,16 @@ def register(request):
 
 
 def home(request):
+    if not request.session.get('visited_home', False):
+        x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
+        if x_forwarded_for:
+            ip = x_forwarded_for.split(',')[0]
+        else:
+            ip = request.META.get('REMOTE_ADDR')
+
+        SiteVisit.objects.create(ip_address=ip)
+        request.session['visited_home'] = True
+
     return render(request, 'accounts/home.html')
 
 
@@ -319,3 +331,15 @@ def lesson_quizzes(request, lesson_id):
         "intermediate_passed": intermediate_passed,
         "advanced_passed": advanced_passed
     })
+def about(request):
+    stats = {
+        'total_users': User.objects.count(),
+        'total_lessons': Lesson.objects.count(),
+        'total_quizzes': Quiz.objects.count(),
+        'total_attempts': QuizResult.objects.count(),
+        'total_posts': DiscussionPost.objects.count(),
+        'total_replies': Reply.objects.count(),
+        'total_visitors': SiteVisit.objects.count(),
+    }
+
+    return render(request, 'accounts/about.html', {'stats': stats})

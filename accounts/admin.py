@@ -1,7 +1,7 @@
 from django.contrib import admin
 from .models import (
     Profile, Category, Lesson, Quiz, Question, QuizResult,
-    DiscussionPost, Reply, QuizProgress, Certificate, Badge
+    DiscussionPost, Reply, QuizProgress, Certificate, Badge,SiteVisit
 )
 
 
@@ -97,3 +97,7 @@ class ReplyAdmin(admin.ModelAdmin):
     def short_content(self, obj):
         return obj.content[:50]
     short_content.short_description = 'Content'
+
+@admin.register(SiteVisit)
+class SiteVisitAdmin(admin.ModelAdmin):
+    list_display = ['ip_address', 'visited_at']    

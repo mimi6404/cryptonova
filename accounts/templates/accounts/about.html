@@ -1,0 +1,96 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Cryptography Platform</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+
+<br>
+<div class="back-wrapper">
+    <a href="{% url 'home' %}" class="back-btn">← Go Back</a>
+</div>
+
+<div class="container">
+
+    <div class="box input-text" class="card">
+        <h1>About This Website</h1>
+        <p>
+            This website is an interactive platform for learning and practicing cryptography.
+            It was created to help students understand cryptographic concepts in a clearer,
+            more practical, and more engaging way.
+        </p>
+    </div>
+
+    <div class="box input-text" class="card">
+        <h2>Why I Made It</h2>
+        <p>
+            The need for CryptoNova emereged from the difficulty of understanding cryptography when it is
+            presented only as theory. My goal was to build a website where users can learn the
+            fundamentals of cryptography, see examples, try practice labs, and test their knowledge
+            through quizzes in one place.
+        </p>
+    </div>
+
+    <div  class="box input-text" class="card" style="margin-top:20px;" class="box input-text">
+        <h2>What to Expect</h2>
+        <p>
+            On this platform, users can explore lessons about different cryptographic algorithms,
+            practice encryption and decryption techniques, complete quizzes, track their progress,
+            and interact with educational content in a more hands-on way.
+        </p>
+    </div>
+
+    <div class="box input-text" class="card" style="margin-top:20px;">
+        <h2>Platform Features</h2>
+        <ul style="padding-left: 20px; line-height: 1.9;">
+            <li>Interactive lessons</li>
+            <li>Practice labs for algorithms</li>
+            <li>Quizzes with different levels</li>
+            <li>User progress tracking</li>
+            <li>Discussion and engagement</li>
+            <li>Profile and achievement system</li>
+        </ul>
+    </div>
+
+    <div  class="card" style="margin-top:20px;">
+        <h2>Website Statistics</h2>
+        <div class="stats-grid">
+            <div class="box input-text" class="stat-box">
+                <h3>{{ stats.total_visitors }}</h3>
+                <p>Total Visitors</p>
+            </div>
+            <div  class="box input-text" class="stat-box">
+                <h3>{{ stats.total_users }}</h3>
+                <p>Registered Users</p>
+            </div>
+            <div class="box input-text" class="stat-box">
+                <h3>{{ stats.total_lessons }}</h3>
+                <p>Total Lessons</p>
+            </div>
+            <div  class="box input-text"class="stat-box">
+                <h3>{{ stats.total_quizzes }}</h3>
+                <p>Total Quizzes</p>
+            </div>
+            <div  class="box input-text"class="stat-box">
+                <h3>{{ stats.total_attempts }}</h3>
+                <p>Quiz Attempts</p>
+            </div>
+            <div class="box input-text" class="stat-box">
+                <h3>{{ stats.total_posts }}</h3>
+                <p>Discussion Posts</p>
+            </div>
+            <div class="box input-text" class="stat-box">
+                <h3>{{ stats.total_replies }}</h3>
+                <p>Replies</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

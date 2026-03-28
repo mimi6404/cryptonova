@@ -433,3 +433,28 @@ input[type="radio"] {
     color: white;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.stat-box {
+    background: #243b5a;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.stat-box h3 {
+    font-size: 32px;
+    color: #38bdf8;
+    margin-bottom: 8px;
+}
+
+.stat-box p {
+    font-size: 16px;
+    color: white;
+}

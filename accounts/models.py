@@ -124,4 +124,11 @@ class Badge(models.Model):
 
     name = models.CharField(max_length=100)
 
-    earned_at = models.DateTimeField(auto_now_add=True)    
+    earned_at = models.DateTimeField(auto_now_add=True) 
+    
+class SiteVisit(models.Model):
+    ip_address = models.GenericIPAddressField(null=True, blank=True)
+    visited_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"{self.ip_address} - {self.visited_at}"    
